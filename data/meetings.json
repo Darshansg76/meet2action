@@ -1776,9 +1776,9 @@
       },
       "review": {
         "reviewer": "Dhanush",
-        "status": "pending",
-        "agreed": null,
-        "notes": ""
+        "status": "done",
+        "agreed": true,
+        "notes": "Agree. One accepted request: Deepa emails the permission forms today (L02 request, L03 acceptance). L04 is completed work, not an action."
       },
       "status": "labelled"
     },
@@ -1813,9 +1813,9 @@
       },
       "review": {
         "reviewer": "Dhanush",
-        "status": "pending",
-        "agreed": null,
-        "notes": ""
+        "status": "done",
+        "agreed": true,
+        "notes": "Agree. One action: Falguni translates the plant labels; \"next week\" stays unresolved. L03 is already done and L04 is a suggestion (\"could\")."
       },
       "status": "labelled"
     },
@@ -1834,9 +1834,9 @@
       },
       "review": {
         "reviewer": "Dhanush",
-        "status": "pending",
-        "agreed": null,
-        "notes": ""
+        "status": "done",
+        "agreed": true,
+        "notes": "Agree. No actions: L02-L03 are completed work, L04 is a suggestion and L05 states no decision was made."
       },
       "status": "labelled"
     },
