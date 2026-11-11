@@ -1397,13 +1397,31 @@
       "split": "example",
       "category": "clear_task",
       "family_id": "F046",
-      "notes": "",
-      "meeting_date": null,
-      "gold_actions": [],
+      "notes": "Bhavana: The museum visit permission forms are ready.\nChetan: Deepa, can you email the forms to the parents today?\nDeepa: Yes, I will email the permission forms today.\nBhavana: The coach booking was confirmed yesterday.",
+      "meeting_date": "2026-11-11",
+      "gold_actions": [
+        {
+          "task": "Email the museum visit permission forms to the parents",
+          "owner": "Deepa",
+          "deadline_text": "today",
+          "due_date": "2026-11-11",
+          "evidence": [
+            {
+              "line_id": "L02",
+              "quote": "Chetan: Deepa, can you email the forms to the parents today?"
+            },
+            {
+              "line_id": "L03",
+              "quote": "Deepa: Yes, I will email the permission forms today."
+            }
+          ],
+          "warnings": []
+        }
+      ],
       "provenance": {
         "author": "Darshan",
         "source": "synthetic, written for this project",
-        "created": null
+        "created": "2026-11-11"
       },
       "review": {
         "reviewer": "Dhanush",
@@ -1411,20 +1429,36 @@
         "agreed": null,
         "notes": ""
       },
-      "status": "todo"
+      "status": "labelled"
     },
     {
       "id": "M047",
       "split": "example",
       "category": "unclear_date",
       "family_id": "F047",
-      "notes": "",
-      "meeting_date": null,
-      "gold_actions": [],
+      "notes": "Eshan: We are discussing the community garden signs.\nFalguni: I will translate the plant labels next week.\nEshan: The beds already have temporary labels.\nFalguni: A second language could make the signs more useful.",
+      "meeting_date": "2026-11-12",
+      "gold_actions": [
+        {
+          "task": "Translate the plant labels",
+          "owner": "Falguni",
+          "deadline_text": "next week",
+          "due_date": null,
+          "evidence": [
+            {
+              "line_id": "L02",
+              "quote": "Falguni: I will translate the plant labels next week."
+            }
+          ],
+          "warnings": [
+            "unresolved_deadline"
+          ]
+        }
+      ],
       "provenance": {
         "author": "Darshan",
         "source": "synthetic, written for this project",
-        "created": null
+        "created": "2026-11-11"
       },
       "review": {
         "reviewer": "Dhanush",
@@ -1432,20 +1466,20 @@
         "agreed": null,
         "notes": ""
       },
-      "status": "todo"
+      "status": "labelled"
     },
     {
       "id": "M048",
       "split": "development",
       "category": "no_action",
       "family_id": "F048",
-      "notes": "",
-      "meeting_date": null,
+      "notes": "Girish: This is the swimming club retrospective.\nHema: The attendance register was updated yesterday.\nInder: I already returned the spare lane ropes.\nHema: Maybe we could try a different warm-up routine.\nGirish: That is an idea for discussion; no decision today.",
+      "meeting_date": "2026-11-13",
       "gold_actions": [],
       "provenance": {
         "author": "Darshan",
         "source": "synthetic, written for this project",
-        "created": null
+        "created": "2026-11-11"
       },
       "review": {
         "reviewer": "Dhanush",
@@ -1453,20 +1487,36 @@
         "agreed": null,
         "notes": ""
       },
-      "status": "todo"
+      "status": "labelled"
     },
     {
       "id": "M049",
       "split": "development",
       "category": "speaker_ambiguity",
       "family_id": "F049",
-      "notes": "",
-      "meeting_date": null,
-      "gold_actions": [],
+      "notes": "Jatin: The oral-history workshop has ended.\nI will archive the workshop recordings tomorrow.\nKusum: The consent forms are already in the folder.\nJatin: The backup drive is already connected.",
+      "meeting_date": "2026-11-14",
+      "gold_actions": [
+        {
+          "task": "Archive the workshop recordings",
+          "owner": null,
+          "deadline_text": "tomorrow",
+          "due_date": "2026-11-15",
+          "evidence": [
+            {
+              "line_id": "L02",
+              "quote": "I will archive the workshop recordings tomorrow."
+            }
+          ],
+          "warnings": [
+            "missing_owner"
+          ]
+        }
+      ],
       "provenance": {
         "author": "Darshan",
         "source": "synthetic, written for this project",
-        "created": null
+        "created": "2026-11-11"
       },
       "review": {
         "reviewer": null,
@@ -1474,20 +1524,75 @@
         "agreed": null,
         "notes": ""
       },
-      "status": "todo"
+      "status": "labelled"
     },
     {
       "id": "M050",
       "split": "development",
       "category": "several_tasks",
       "family_id": "F050",
-      "notes": "",
-      "meeting_date": null,
-      "gold_actions": [],
+      "notes": "Lakshmi: Let us confirm the neighbourhood sports-day jobs.\nMohan: I will mark the running lanes today.\nNalini: I will collect the first-aid kit tomorrow.\nOjas: I will print the scorecards in 3 days.\nLakshmi: I will email the volunteer briefing.\nNalini: The equipment cupboard is already unlocked.",
+      "meeting_date": "2026-11-15",
+      "gold_actions": [
+        {
+          "task": "Mark the running lanes",
+          "owner": "Mohan",
+          "deadline_text": "today",
+          "due_date": "2026-11-15",
+          "evidence": [
+            {
+              "line_id": "L02",
+              "quote": "Mohan: I will mark the running lanes today."
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "task": "Collect the first-aid kit",
+          "owner": "Nalini",
+          "deadline_text": "tomorrow",
+          "due_date": "2026-11-16",
+          "evidence": [
+            {
+              "line_id": "L03",
+              "quote": "Nalini: I will collect the first-aid kit tomorrow."
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "task": "Print the scorecards",
+          "owner": "Ojas",
+          "deadline_text": "in 3 days",
+          "due_date": "2026-11-18",
+          "evidence": [
+            {
+              "line_id": "L04",
+              "quote": "Ojas: I will print the scorecards in 3 days."
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "task": "Email the volunteer briefing",
+          "owner": "Lakshmi",
+          "deadline_text": null,
+          "due_date": null,
+          "evidence": [
+            {
+              "line_id": "L05",
+              "quote": "Lakshmi: I will email the volunteer briefing."
+            }
+          ],
+          "warnings": [
+            "missing_deadline"
+          ]
+        }
+      ],
       "provenance": {
         "author": "Darshan",
         "source": "synthetic, written for this project",
-        "created": null
+        "created": "2026-11-11"
       },
       "review": {
         "reviewer": null,
@@ -1495,20 +1600,38 @@
         "agreed": null,
         "notes": ""
       },
-      "status": "todo"
+      "status": "labelled"
     },
     {
       "id": "M051",
       "split": "test",
       "category": "clear_task",
       "family_id": "F051",
-      "notes": "",
+      "notes": "Pallavi: The school telescope is ready for the astronomy evening.\nQasim: Renuka, can you send the observing checklist to the volunteers by 2026-12-02?\nRenuka: Yes, I will send the observing checklist by 2026-12-02.\nQasim: The lens caps were replaced last month.",
       "meeting_date": null,
-      "gold_actions": [],
+      "gold_actions": [
+        {
+          "task": "Send the observing checklist to the volunteers",
+          "owner": "Renuka",
+          "deadline_text": "2026-12-02",
+          "due_date": "2026-12-02",
+          "evidence": [
+            {
+              "line_id": "L02",
+              "quote": "Qasim: Renuka, can you send the observing checklist to the volunteers by 2026-12-02?"
+            },
+            {
+              "line_id": "L03",
+              "quote": "Renuka: Yes, I will send the observing checklist by 2026-12-02."
+            }
+          ],
+          "warnings": []
+        }
+      ],
       "provenance": {
         "author": "Darshan",
         "source": "synthetic, written for this project",
-        "created": null
+        "created": "2026-11-11"
       },
       "review": {
         "reviewer": null,
@@ -1516,20 +1639,73 @@
         "agreed": null,
         "notes": ""
       },
-      "status": "todo"
+      "status": "labelled"
     },
     {
       "id": "M052",
       "split": "test",
       "category": "several_tasks",
       "family_id": "F052",
-      "notes": "",
-      "meeting_date": null,
-      "gold_actions": [],
+      "notes": "Saloni: We are preparing the bicycle repair camp.\nTarun: I will count the spare tubes today.\nUma: I will collect the puncture repair kits in 2 days.\nVarun: I will print the repair station signs by 2026-11-21.\nSaloni: I will send the mechanic rota tomorrow.\nUma: The hall keys have already been collected.",
+      "meeting_date": "2026-11-18",
+      "gold_actions": [
+        {
+          "task": "Count the spare tubes",
+          "owner": "Tarun",
+          "deadline_text": "today",
+          "due_date": "2026-11-18",
+          "evidence": [
+            {
+              "line_id": "L02",
+              "quote": "Tarun: I will count the spare tubes today."
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "task": "Collect the puncture repair kits",
+          "owner": "Uma",
+          "deadline_text": "in 2 days",
+          "due_date": "2026-11-20",
+          "evidence": [
+            {
+              "line_id": "L03",
+              "quote": "Uma: I will collect the puncture repair kits in 2 days."
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "task": "Print the repair station signs",
+          "owner": "Varun",
+          "deadline_text": "2026-11-21",
+          "due_date": "2026-11-21",
+          "evidence": [
+            {
+              "line_id": "L04",
+              "quote": "Varun: I will print the repair station signs by 2026-11-21."
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "task": "Send the mechanic rota",
+          "owner": "Saloni",
+          "deadline_text": "tomorrow",
+          "due_date": "2026-11-19",
+          "evidence": [
+            {
+              "line_id": "L05",
+              "quote": "Saloni: I will send the mechanic rota tomorrow."
+            }
+          ],
+          "warnings": []
+        }
+      ],
       "provenance": {
         "author": "Darshan",
         "source": "synthetic, written for this project",
-        "created": null
+        "created": "2026-11-11"
       },
       "review": {
         "reviewer": null,
@@ -1537,20 +1713,52 @@
         "agreed": null,
         "notes": ""
       },
-      "status": "todo"
+      "status": "labelled"
     },
     {
       "id": "M053",
       "split": "test",
       "category": "missing_owner",
       "family_id": "F053",
-      "notes": "",
-      "meeting_date": null,
-      "gold_actions": [],
+      "notes": "Waseem: The pottery exhibition opens next month.\nYamini: The display shelves must be secured by 2026-11-23.\nWaseem: We also need to photograph the finished bowls.\nYamini: Agreed; neither job has a person assigned yet.",
+      "meeting_date": "2026-11-19",
+      "gold_actions": [
+        {
+          "task": "Secure the display shelves",
+          "owner": null,
+          "deadline_text": "2026-11-23",
+          "due_date": "2026-11-23",
+          "evidence": [
+            {
+              "line_id": "L02",
+              "quote": "Yamini: The display shelves must be secured by 2026-11-23."
+            }
+          ],
+          "warnings": [
+            "missing_owner"
+          ]
+        },
+        {
+          "task": "Photograph the finished bowls",
+          "owner": null,
+          "deadline_text": null,
+          "due_date": null,
+          "evidence": [
+            {
+              "line_id": "L03",
+              "quote": "Waseem: We also need to photograph the finished bowls."
+            }
+          ],
+          "warnings": [
+            "missing_owner",
+            "missing_deadline"
+          ]
+        }
+      ],
       "provenance": {
         "author": "Darshan",
         "source": "synthetic, written for this project",
-        "created": null
+        "created": "2026-11-11"
       },
       "review": {
         "reviewer": null,
@@ -1558,20 +1766,51 @@
         "agreed": null,
         "notes": ""
       },
-      "status": "todo"
+      "status": "labelled"
     },
     {
       "id": "M054",
       "split": "test",
       "category": "unclear_date",
       "family_id": "F054",
-      "notes": "",
+      "notes": "Zubin: The choir has received the updated sheet music.\nAmrita: I will send the rehearsal audio tomorrow.\nBhuvan: I will compile the pronunciation sheet in 2 days.\nZubin: Last season we rehearsed in the smaller room.",
       "meeting_date": null,
-      "gold_actions": [],
+      "gold_actions": [
+        {
+          "task": "Send the rehearsal audio",
+          "owner": "Amrita",
+          "deadline_text": "tomorrow",
+          "due_date": null,
+          "evidence": [
+            {
+              "line_id": "L02",
+              "quote": "Amrita: I will send the rehearsal audio tomorrow."
+            }
+          ],
+          "warnings": [
+            "unresolved_deadline"
+          ]
+        },
+        {
+          "task": "Compile the pronunciation sheet",
+          "owner": "Bhuvan",
+          "deadline_text": "in 2 days",
+          "due_date": null,
+          "evidence": [
+            {
+              "line_id": "L03",
+              "quote": "Bhuvan: I will compile the pronunciation sheet in 2 days."
+            }
+          ],
+          "warnings": [
+            "unresolved_deadline"
+          ]
+        }
+      ],
       "provenance": {
         "author": "Darshan",
         "source": "synthetic, written for this project",
-        "created": null
+        "created": "2026-11-11"
       },
       "review": {
         "reviewer": null,
@@ -1579,20 +1818,36 @@
         "agreed": null,
         "notes": ""
       },
-      "status": "todo"
+      "status": "labelled"
     },
     {
       "id": "M055",
       "split": "test",
       "category": "non_action",
       "family_id": "F055",
-      "notes": "",
-      "meeting_date": null,
-      "gold_actions": [],
+      "notes": "Chitra: The river survey review is starting.\nDaksh: I already calibrated the water-quality meter.\nElina: We could compare readings at another bridge.\nChitra: Maybe a weekend visit would be useful.\nDaksh: I will send the calibration certificate to the supervisor.\nElina: The sample bottles were washed yesterday.",
+      "meeting_date": "2026-11-21",
+      "gold_actions": [
+        {
+          "task": "Send the calibration certificate to the supervisor",
+          "owner": "Daksh",
+          "deadline_text": null,
+          "due_date": null,
+          "evidence": [
+            {
+              "line_id": "L05",
+              "quote": "Daksh: I will send the calibration certificate to the supervisor."
+            }
+          ],
+          "warnings": [
+            "missing_deadline"
+          ]
+        }
+      ],
       "provenance": {
         "author": "Darshan",
         "source": "synthetic, written for this project",
-        "created": null
+        "created": "2026-11-11"
       },
       "review": {
         "reviewer": null,
@@ -1600,20 +1855,42 @@
         "agreed": null,
         "notes": ""
       },
-      "status": "todo"
+      "status": "labelled"
     },
     {
       "id": "M056",
       "split": "test",
       "category": "correction",
       "family_id": "F056",
-      "notes": "",
-      "meeting_date": null,
-      "gold_actions": [],
+      "notes": "Freya: I will submit the theatre lighting plan tomorrow.\nHarsh: Correction, Ishani will submit the theatre lighting plan instead, by 2026-11-27.\nIshani: Yes, I will submit the theatre lighting plan by 2026-11-27.\nHarsh: I will reserve a rehearsal projector today.\nHarsh: Cancel my projector reservation task; we are using the existing projector.\nFreya: The lighting task is now assigned to Ishani.",
+      "meeting_date": "2026-11-22",
+      "gold_actions": [
+        {
+          "task": "Submit the theatre lighting plan",
+          "owner": "Ishani",
+          "deadline_text": "2026-11-27",
+          "due_date": "2026-11-27",
+          "evidence": [
+            {
+              "line_id": "L01",
+              "quote": "Freya: I will submit the theatre lighting plan tomorrow."
+            },
+            {
+              "line_id": "L02",
+              "quote": "Harsh: Correction, Ishani will submit the theatre lighting plan instead, by 2026-11-27."
+            },
+            {
+              "line_id": "L03",
+              "quote": "Ishani: Yes, I will submit the theatre lighting plan by 2026-11-27."
+            }
+          ],
+          "warnings": []
+        }
+      ],
       "provenance": {
         "author": "Darshan",
         "source": "synthetic, written for this project",
-        "created": null
+        "created": "2026-11-11"
       },
       "review": {
         "reviewer": null,
@@ -1621,20 +1898,37 @@
         "agreed": null,
         "notes": ""
       },
-      "status": "todo"
+      "status": "labelled"
     },
     {
       "id": "M057",
       "split": "test",
       "category": "speaker_ambiguity",
       "family_id": "F057",
-      "notes": "",
-      "meeting_date": null,
-      "gold_actions": [],
+      "notes": "Juhi: The seed exchange boxes are packed.\nKeshav: Someone will deliver the boxes to the community centre.\nJuhi: We have not named the person for that delivery.\nKeshav: The printed labels are already attached.",
+      "meeting_date": "2026-11-23",
+      "gold_actions": [
+        {
+          "task": "Deliver the seed exchange boxes to the community centre",
+          "owner": null,
+          "deadline_text": null,
+          "due_date": null,
+          "evidence": [
+            {
+              "line_id": "L02",
+              "quote": "Keshav: Someone will deliver the boxes to the community centre."
+            }
+          ],
+          "warnings": [
+            "missing_owner",
+            "missing_deadline"
+          ]
+        }
+      ],
       "provenance": {
         "author": "Darshan",
         "source": "synthetic, written for this project",
-        "created": null
+        "created": "2026-11-11"
       },
       "review": {
         "reviewer": null,
@@ -1642,20 +1936,20 @@
         "agreed": null,
         "notes": ""
       },
-      "status": "todo"
+      "status": "labelled"
     },
     {
       "id": "M058",
       "split": "test",
       "category": "no_action",
       "family_id": "F058",
-      "notes": "",
-      "meeting_date": null,
+      "notes": "Lavanya: This is the chess tournament debrief.\nMukul: The final standings were posted last night.\nLavanya: I already returned the clocks to the cupboard.\nMukul: We might consider a longer lunch break next time.\nLavanya: The players seemed happy with the venue.",
+      "meeting_date": "2026-11-24",
       "gold_actions": [],
       "provenance": {
         "author": "Darshan",
         "source": "synthetic, written for this project",
-        "created": null
+        "created": "2026-11-11"
       },
       "review": {
         "reviewer": null,
@@ -1663,20 +1957,36 @@
         "agreed": null,
         "notes": ""
       },
-      "status": "todo"
+      "status": "labelled"
     },
     {
       "id": "M059",
       "split": "test",
       "category": "speaker_ambiguity",
       "family_id": "F059",
-      "notes": "",
-      "meeting_date": null,
-      "gold_actions": [],
+      "notes": "Nandita: The accessibility walk is on the agenda.\nPranav: We will compile the pavement obstacle list in 2 days.\nNandita: The route includes the station entrance.\nPranav: The route map was approved yesterday.",
+      "meeting_date": "2026-11-25",
+      "gold_actions": [
+        {
+          "task": "Compile the pavement obstacle list",
+          "owner": null,
+          "deadline_text": "in 2 days",
+          "due_date": "2026-11-27",
+          "evidence": [
+            {
+              "line_id": "L02",
+              "quote": "Pranav: We will compile the pavement obstacle list in 2 days."
+            }
+          ],
+          "warnings": [
+            "missing_owner"
+          ]
+        }
+      ],
       "provenance": {
         "author": "Darshan",
         "source": "synthetic, written for this project",
-        "created": null
+        "created": "2026-11-11"
       },
       "review": {
         "reviewer": null,
@@ -1684,20 +1994,20 @@
         "agreed": null,
         "notes": ""
       },
-      "status": "todo"
+      "status": "labelled"
     },
     {
       "id": "M060",
       "split": "test",
       "category": "no_action",
       "family_id": "F060",
-      "notes": "",
+      "notes": "Rachana: The costume archive stocktake is complete.\nSiddharth: I finished counting the jackets yesterday.\nTrisha: The storage boxes were relabelled last week.\nRachana: It might be nice to display a few costumes in the foyer.\nTrisha: Perhaps; that remains a suggestion.",
       "meeting_date": null,
       "gold_actions": [],
       "provenance": {
         "author": "Darshan",
         "source": "synthetic, written for this project",
-        "created": null
+        "created": "2026-11-11"
       },
       "review": {
         "reviewer": null,
@@ -1705,7 +2015,7 @@
         "agreed": null,
         "notes": ""
       },
-      "status": "todo"
+      "status": "labelled"
     }
   ]
 }

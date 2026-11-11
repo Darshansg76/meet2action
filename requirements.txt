@@ -1,0 +1,3 @@
+# The dataset checker and evaluator use only Python's standard library (Python 3.10+).
+# Add the engine's provider SDK and Pydantic, and the app's Streamlit dependency,
+# once service.py and app.py are supplied and their versions have been verified.

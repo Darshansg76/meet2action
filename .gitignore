@@ -1,0 +1,16 @@
+# Private work-allocation document and Word's temporary lock file.
+/Meet2Action_Team_Work_Allocation.docx
+/~$Meet2Action_Team_Work_Allocation.docx
+
+# Local credentials and Python environments.
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Keep evaluation runs local until they have been reviewed for submission.
+/results/runs/
