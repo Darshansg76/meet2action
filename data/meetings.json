@@ -6,13 +6,40 @@
       "split": "example",
       "category": "clear_task",
       "family_id": "F001",
-      "notes": "",
-      "meeting_date": null,
-      "gold_actions": [],
+      "notes": "Maya: The product page copy is approved; let's confirm the last two follow-ups.\nIshan: I'll send the final product page copy to the printer by 2026-11-13.\nPriya: I'll book the review room for 2026-11-12.\nMaya: Great, both are confirmed for those dates.",
+      "meeting_date": "2026-11-11",
+      "gold_actions": [
+        {
+          "task": "Send the final product page copy to the printer",
+          "owner": "Ishan",
+          "deadline_text": "2026-11-13",
+          "due_date": "2026-11-13",
+          "evidence": [
+            {
+              "line_id": "L02",
+              "quote": "Ishan: I'll send the final product page copy to the printer by 2026-11-13."
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "task": "Book the review room",
+          "owner": "Priya",
+          "deadline_text": "2026-11-12",
+          "due_date": "2026-11-12",
+          "evidence": [
+            {
+              "line_id": "L03",
+              "quote": "Priya: I'll book the review room for 2026-11-12."
+            }
+          ],
+          "warnings": []
+        }
+      ],
       "provenance": {
         "author": "Dhanraj",
         "source": "synthetic, written for this project",
-        "created": null
+        "created": "2026-11-11"
       },
       "review": {
         "reviewer": "Darshan",
@@ -20,20 +47,41 @@
         "agreed": null,
         "notes": ""
       },
-      "status": "todo"
+      "status": "labelled"
     },
     {
       "id": "M002",
       "split": "example",
       "category": "missing_owner",
       "family_id": "F002",
-      "notes": "",
-      "meeting_date": null,
-      "gold_actions": [],
+      "notes": "Nora: The venue deposit is still outstanding.\nEli: The booking needs to be confirmed before Friday so we keep the space.\nNora: Agreed, the booking needs to be confirmed before Friday.\nEli: I have already sent the catering preferences, so that's done.",
+      "meeting_date": "2026-11-11",
+      "gold_actions": [
+        {
+          "task": "Confirm the booking",
+          "owner": null,
+          "deadline_text": "before Friday",
+          "due_date": null,
+          "evidence": [
+            {
+              "line_id": "L02",
+              "quote": "Eli: The booking needs to be confirmed before Friday so we keep the space."
+            },
+            {
+              "line_id": "L03",
+              "quote": "Nora: Agreed, the booking needs to be confirmed before Friday."
+            }
+          ],
+          "warnings": [
+            "missing_owner",
+            "unresolved_deadline"
+          ]
+        }
+      ],
       "provenance": {
         "author": "Dhanraj",
         "source": "synthetic, written for this project",
-        "created": null
+        "created": "2026-11-11"
       },
       "review": {
         "reviewer": "Darshan",
@@ -41,20 +89,34 @@
         "agreed": null,
         "notes": ""
       },
-      "status": "todo"
+      "status": "labelled"
     },
     {
       "id": "M003",
       "split": "development",
       "category": "non_action",
       "family_id": "F003",
-      "notes": "",
-      "meeting_date": null,
-      "gold_actions": [],
+      "notes": "Sofia: The rehearsal room booking is confirmed.\nMateo: I already sent the updated slide deck to the presenters.\nSofia: We could add a short Q&A to the opening, but let's decide after the rehearsal.\nMateo: I'll send the final agenda to the panel by 2026-11-13.\nSofia: Sounds good; we'll use that agenda for the run-through.",
+      "meeting_date": "2026-11-11",
+      "gold_actions": [
+        {
+          "task": "Send the final agenda to the panel",
+          "owner": "Mateo",
+          "deadline_text": "2026-11-13",
+          "due_date": "2026-11-13",
+          "evidence": [
+            {
+              "line_id": "L04",
+              "quote": "Mateo: I'll send the final agenda to the panel by 2026-11-13."
+            }
+          ],
+          "warnings": []
+        }
+      ],
       "provenance": {
         "author": "Dhanraj",
         "source": "synthetic, written for this project",
-        "created": null
+        "created": "2026-11-11"
       },
       "review": {
         "reviewer": "Darshan",
@@ -62,20 +124,42 @@
         "agreed": null,
         "notes": ""
       },
-      "status": "todo"
+      "status": "labelled"
     },
     {
       "id": "M004",
       "split": "development",
       "category": "correction",
       "family_id": "F004",
-      "notes": "",
-      "meeting_date": null,
-      "gold_actions": [],
+      "notes": "Hana: The coordinator list is ready for the revised volunteer schedule.\nDev: I'll send the revised volunteer schedule by 2026-11-13.\nHana: The room assignments are already posted.\nHana: Correction: Asha will send the revised volunteer schedule instead, by 2026-11-15.\nAsha: Confirmed, I'll send the revised volunteer schedule by 2026-11-15.\nDev: Great, I'll leave that with Asha.",
+      "meeting_date": "2026-11-11",
+      "gold_actions": [
+        {
+          "task": "Send the revised volunteer schedule",
+          "owner": "Asha",
+          "deadline_text": "2026-11-15",
+          "due_date": "2026-11-15",
+          "evidence": [
+            {
+              "line_id": "L02",
+              "quote": "Dev: I'll send the revised volunteer schedule by 2026-11-13."
+            },
+            {
+              "line_id": "L04",
+              "quote": "Hana: Correction: Asha will send the revised volunteer schedule instead, by 2026-11-15."
+            },
+            {
+              "line_id": "L05",
+              "quote": "Asha: Confirmed, I'll send the revised volunteer schedule by 2026-11-15."
+            }
+          ],
+          "warnings": []
+        }
+      ],
       "provenance": {
         "author": "Dhanraj",
         "source": "synthetic, written for this project",
-        "created": null
+        "created": "2026-11-11"
       },
       "review": {
         "reviewer": null,
@@ -83,20 +167,41 @@
         "agreed": null,
         "notes": ""
       },
-      "status": "todo"
+      "status": "labelled"
     },
     {
       "id": "M005",
       "split": "development",
       "category": "speaker_ambiguity",
       "family_id": "F005",
-      "notes": "",
-      "meeting_date": null,
-      "gold_actions": [],
+      "notes": "Omar: The consent forms are scanned and ready.\nSomeone will upload the signed consent forms to the shared folder.\nPriya: Agreed, let's make sure that gets done.\nPriya: We could reorganize the folder by department later.",
+      "meeting_date": "2026-11-11",
+      "gold_actions": [
+        {
+          "task": "Upload the signed consent forms to the shared folder",
+          "owner": null,
+          "deadline_text": null,
+          "due_date": null,
+          "evidence": [
+            {
+              "line_id": "L02",
+              "quote": "Someone will upload the signed consent forms to the shared folder."
+            },
+            {
+              "line_id": "L03",
+              "quote": "Priya: Agreed, let's make sure that gets done."
+            }
+          ],
+          "warnings": [
+            "missing_owner",
+            "missing_deadline"
+          ]
+        }
+      ],
       "provenance": {
         "author": "Dhanraj",
         "source": "synthetic, written for this project",
-        "created": null
+        "created": "2026-11-11"
       },
       "review": {
         "reviewer": null,
@@ -104,20 +209,47 @@
         "agreed": null,
         "notes": ""
       },
-      "status": "todo"
+      "status": "labelled"
     },
     {
       "id": "M006",
       "split": "test",
       "category": "clear_task",
       "family_id": "F006",
-      "notes": "",
-      "meeting_date": null,
-      "gold_actions": [],
+      "notes": "Tessa: The outreach flyer is ready for final review.\nJun: I'll email the approved flyer to the community partners by 2026-11-13.\nTessa: I'll reserve the library room for the kickoff by 2026-11-14.\nJun: Perfect, those are our two follow-ups.",
+      "meeting_date": "2026-11-11",
+      "gold_actions": [
+        {
+          "task": "Email the approved flyer to the community partners",
+          "owner": "Jun",
+          "deadline_text": "2026-11-13",
+          "due_date": "2026-11-13",
+          "evidence": [
+            {
+              "line_id": "L02",
+              "quote": "Jun: I'll email the approved flyer to the community partners by 2026-11-13."
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "task": "Reserve the library room for the kickoff",
+          "owner": "Tessa",
+          "deadline_text": "2026-11-14",
+          "due_date": "2026-11-14",
+          "evidence": [
+            {
+              "line_id": "L03",
+              "quote": "Tessa: I'll reserve the library room for the kickoff by 2026-11-14."
+            }
+          ],
+          "warnings": []
+        }
+      ],
       "provenance": {
         "author": "Dhanraj",
         "source": "synthetic, written for this project",
-        "created": null
+        "created": "2026-11-11"
       },
       "review": {
         "reviewer": null,
@@ -125,20 +257,73 @@
         "agreed": null,
         "notes": ""
       },
-      "status": "todo"
+      "status": "labelled"
     },
     {
       "id": "M007",
       "split": "test",
       "category": "several_tasks",
       "family_id": "F007",
-      "notes": "",
-      "meeting_date": null,
-      "gold_actions": [],
+      "notes": "Rhea: Let's confirm the follow-ups for the neighborhood survey.\nCal: I'll print the updated survey forms by 2026-11-12.\nNia: I'll book the community hall for the briefing by 2026-11-14.\nRhea: I'll send the volunteer schedule to the team by 2026-11-13.\nCal: I'll prepare the sign-in sheet by 2026-11-15.",
+      "meeting_date": "2026-11-11",
+      "gold_actions": [
+        {
+          "task": "Print the updated survey forms",
+          "owner": "Cal",
+          "deadline_text": "2026-11-12",
+          "due_date": "2026-11-12",
+          "evidence": [
+            {
+              "line_id": "L02",
+              "quote": "Cal: I'll print the updated survey forms by 2026-11-12."
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "task": "Book the community hall for the briefing",
+          "owner": "Nia",
+          "deadline_text": "2026-11-14",
+          "due_date": "2026-11-14",
+          "evidence": [
+            {
+              "line_id": "L03",
+              "quote": "Nia: I'll book the community hall for the briefing by 2026-11-14."
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "task": "Send the volunteer schedule to the team",
+          "owner": "Rhea",
+          "deadline_text": "2026-11-13",
+          "due_date": "2026-11-13",
+          "evidence": [
+            {
+              "line_id": "L04",
+              "quote": "Rhea: I'll send the volunteer schedule to the team by 2026-11-13."
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "task": "Prepare the sign-in sheet",
+          "owner": "Cal",
+          "deadline_text": "2026-11-15",
+          "due_date": "2026-11-15",
+          "evidence": [
+            {
+              "line_id": "L05",
+              "quote": "Cal: I'll prepare the sign-in sheet by 2026-11-15."
+            }
+          ],
+          "warnings": []
+        }
+      ],
       "provenance": {
         "author": "Dhanraj",
         "source": "synthetic, written for this project",
-        "created": null
+        "created": "2026-11-11"
       },
       "review": {
         "reviewer": null,
@@ -146,20 +331,41 @@
         "agreed": null,
         "notes": ""
       },
-      "status": "todo"
+      "status": "labelled"
     },
     {
       "id": "M008",
       "split": "test",
       "category": "missing_owner",
       "family_id": "F008",
-      "notes": "",
-      "meeting_date": null,
-      "gold_actions": [],
+      "notes": "Vera: The registration spreadsheet has duplicate entries.\nOwen: We need to reconcile the duplicate registrations before sending the final count.\nVera: Agreed, the duplicates need to be reconciled so the count is accurate.\nOwen: The venue invoice was already paid this morning.",
+      "meeting_date": "2026-11-11",
+      "gold_actions": [
+        {
+          "task": "Reconcile the duplicate registrations",
+          "owner": null,
+          "deadline_text": "before sending the final count",
+          "due_date": null,
+          "evidence": [
+            {
+              "line_id": "L02",
+              "quote": "Owen: We need to reconcile the duplicate registrations before sending the final count."
+            },
+            {
+              "line_id": "L03",
+              "quote": "Vera: Agreed, the duplicates need to be reconciled so the count is accurate."
+            }
+          ],
+          "warnings": [
+            "missing_owner",
+            "unresolved_deadline"
+          ]
+        }
+      ],
       "provenance": {
         "author": "Dhanraj",
         "source": "synthetic, written for this project",
-        "created": null
+        "created": "2026-11-11"
       },
       "review": {
         "reviewer": null,
@@ -167,20 +373,36 @@
         "agreed": null,
         "notes": ""
       },
-      "status": "todo"
+      "status": "labelled"
     },
     {
       "id": "M009",
       "split": "test",
       "category": "unclear_date",
       "family_id": "F009",
-      "notes": "",
-      "meeting_date": null,
-      "gold_actions": [],
+      "notes": "Elena: The translation review is still waiting on the updated glossary.\nMark: I'll send the revised glossary to the translators by Friday.\nElena: Thanks, that will let them finish their review.\nMark: The first batch of terminology was already approved.",
+      "meeting_date": "2026-11-11",
+      "gold_actions": [
+        {
+          "task": "Send the revised glossary to the translators",
+          "owner": "Mark",
+          "deadline_text": "Friday",
+          "due_date": null,
+          "evidence": [
+            {
+              "line_id": "L02",
+              "quote": "Mark: I'll send the revised glossary to the translators by Friday."
+            }
+          ],
+          "warnings": [
+            "unresolved_deadline"
+          ]
+        }
+      ],
       "provenance": {
         "author": "Dhanraj",
         "source": "synthetic, written for this project",
-        "created": null
+        "created": "2026-11-11"
       },
       "review": {
         "reviewer": null,
@@ -188,20 +410,34 @@
         "agreed": null,
         "notes": ""
       },
-      "status": "todo"
+      "status": "labelled"
     },
     {
       "id": "M010",
       "split": "test",
       "category": "non_action",
       "family_id": "F010",
-      "notes": "",
-      "meeting_date": null,
-      "gold_actions": [],
+      "notes": "Ari: The draft budget was approved yesterday.\nBea: I already uploaded the signed forms to the project folder.\nAri: Maybe we could add a short project overview to the next newsletter.\nBea: I'll send the revised budget summary to the committee by 2026-11-14.\nAri: Good, the newsletter idea can stay on the list for now.",
+      "meeting_date": "2026-11-11",
+      "gold_actions": [
+        {
+          "task": "Send the revised budget summary to the committee",
+          "owner": "Bea",
+          "deadline_text": "2026-11-14",
+          "due_date": "2026-11-14",
+          "evidence": [
+            {
+              "line_id": "L04",
+              "quote": "Bea: I'll send the revised budget summary to the committee by 2026-11-14."
+            }
+          ],
+          "warnings": []
+        }
+      ],
       "provenance": {
         "author": "Dhanraj",
         "source": "synthetic, written for this project",
-        "created": null
+        "created": "2026-11-11"
       },
       "review": {
         "reviewer": null,
@@ -209,20 +445,38 @@
         "agreed": null,
         "notes": ""
       },
-      "status": "todo"
+      "status": "labelled"
     },
     {
       "id": "M011",
       "split": "test",
       "category": "correction",
       "family_id": "F011",
-      "notes": "",
-      "meeting_date": null,
-      "gold_actions": [],
+      "notes": "Nadia: Let's confirm who is sending the updated clinic rota.\nFelix: I'll email the updated clinic rota to the staff by 2026-11-13.\nNadia: The room list was already posted this morning.\nNadia: Correction, Priya will email the updated clinic rota instead, by 2026-11-15.\nPriya: Confirmed, I'll email the updated clinic rota by 2026-11-15.",
+      "meeting_date": "2026-11-11",
+      "gold_actions": [
+        {
+          "task": "Email the updated clinic rota to the staff",
+          "owner": "Priya",
+          "deadline_text": "2026-11-15",
+          "due_date": "2026-11-15",
+          "evidence": [
+            {
+              "line_id": "L04",
+              "quote": "Nadia: Correction, Priya will email the updated clinic rota instead, by 2026-11-15."
+            },
+            {
+              "line_id": "L05",
+              "quote": "Priya: Confirmed, I'll email the updated clinic rota by 2026-11-15."
+            }
+          ],
+          "warnings": []
+        }
+      ],
       "provenance": {
         "author": "Dhanraj",
         "source": "synthetic, written for this project",
-        "created": null
+        "created": "2026-11-11"
       },
       "review": {
         "reviewer": null,
@@ -230,20 +484,37 @@
         "agreed": null,
         "notes": ""
       },
-      "status": "todo"
+      "status": "labelled"
     },
     {
       "id": "M012",
       "split": "test",
       "category": "speaker_ambiguity",
       "family_id": "F012",
-      "notes": "",
-      "meeting_date": null,
-      "gold_actions": [],
+      "notes": "Imani: The welcome kits are packed and ready for delivery.\nSomeone will deliver the welcome kits to the east office by Friday.\nTheo: Agreed, the kits need to reach the east office before its orientation.\nImani: We could add a printed map to future kits.",
+      "meeting_date": "2026-11-11",
+      "gold_actions": [
+        {
+          "task": "Deliver the welcome kits to the east office",
+          "owner": null,
+          "deadline_text": "Friday",
+          "due_date": null,
+          "evidence": [
+            {
+              "line_id": "L02",
+              "quote": "Someone will deliver the welcome kits to the east office by Friday."
+            }
+          ],
+          "warnings": [
+            "missing_owner",
+            "unresolved_deadline"
+          ]
+        }
+      ],
       "provenance": {
         "author": "Dhanraj",
         "source": "synthetic, written for this project",
-        "created": null
+        "created": "2026-11-11"
       },
       "review": {
         "reviewer": null,
@@ -251,20 +522,20 @@
         "agreed": null,
         "notes": ""
       },
-      "status": "todo"
+      "status": "labelled"
     },
     {
       "id": "M013",
       "split": "test",
       "category": "no_action",
       "family_id": "F013",
-      "notes": "",
-      "meeting_date": null,
+      "notes": "Rosa: The community survey closed yesterday.\nMalik: I already compiled the responses and shared the summary.\nRosa: The response rate was higher than we expected.\nMalik: Maybe we could include a chart in the next update.\nRosa: That's an idea to consider, but nothing else is needed for this report.",
+      "meeting_date": "2026-11-11",
       "gold_actions": [],
       "provenance": {
         "author": "Dhanraj",
         "source": "synthetic, written for this project",
-        "created": null
+        "created": "2026-11-11"
       },
       "review": {
         "reviewer": null,
@@ -272,20 +543,47 @@
         "agreed": null,
         "notes": ""
       },
-      "status": "todo"
+      "status": "labelled"
     },
     {
       "id": "M014",
       "split": "test",
       "category": "clear_task",
       "family_id": "F014",
-      "notes": "",
-      "meeting_date": null,
-      "gold_actions": [],
+      "notes": "Evan: The exhibit labels have all been proofread.\nLila: I'll print the final exhibit labels by 2026-11-13.\nEvan: I'll send the updated floor plan to the installers by 2026-11-14.\nLila: Great, those are the two remaining tasks.",
+      "meeting_date": "2026-11-11",
+      "gold_actions": [
+        {
+          "task": "Print the final exhibit labels",
+          "owner": "Lila",
+          "deadline_text": "2026-11-13",
+          "due_date": "2026-11-13",
+          "evidence": [
+            {
+              "line_id": "L02",
+              "quote": "Lila: I'll print the final exhibit labels by 2026-11-13."
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "task": "Send the updated floor plan to the installers",
+          "owner": "Evan",
+          "deadline_text": "2026-11-14",
+          "due_date": "2026-11-14",
+          "evidence": [
+            {
+              "line_id": "L03",
+              "quote": "Evan: I'll send the updated floor plan to the installers by 2026-11-14."
+            }
+          ],
+          "warnings": []
+        }
+      ],
       "provenance": {
         "author": "Dhanraj",
         "source": "synthetic, written for this project",
-        "created": null
+        "created": "2026-11-11"
       },
       "review": {
         "reviewer": null,
@@ -293,20 +591,73 @@
         "agreed": null,
         "notes": ""
       },
-      "status": "todo"
+      "status": "labelled"
     },
     {
       "id": "M015",
       "split": "test",
       "category": "several_tasks",
       "family_id": "F015",
-      "notes": "",
-      "meeting_date": null,
-      "gold_actions": [],
+      "notes": "Tariq: Let's settle the follow-ups for the volunteer orientation.\nJune: I'll print the check-in sheets by 2026-11-12.\nMarco: I'll confirm the projector booking by 2026-11-13.\nTariq: I'll email the final orientation schedule to volunteers by 2026-11-14.\nJune: I'll prepare the name badges by 2026-11-15.",
+      "meeting_date": "2026-11-11",
+      "gold_actions": [
+        {
+          "task": "Print the check-in sheets",
+          "owner": "June",
+          "deadline_text": "2026-11-12",
+          "due_date": "2026-11-12",
+          "evidence": [
+            {
+              "line_id": "L02",
+              "quote": "June: I'll print the check-in sheets by 2026-11-12."
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "task": "Confirm the projector booking",
+          "owner": "Marco",
+          "deadline_text": "2026-11-13",
+          "due_date": "2026-11-13",
+          "evidence": [
+            {
+              "line_id": "L03",
+              "quote": "Marco: I'll confirm the projector booking by 2026-11-13."
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "task": "Email the final orientation schedule to volunteers",
+          "owner": "Tariq",
+          "deadline_text": "2026-11-14",
+          "due_date": "2026-11-14",
+          "evidence": [
+            {
+              "line_id": "L04",
+              "quote": "Tariq: I'll email the final orientation schedule to volunteers by 2026-11-14."
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "task": "Prepare the name badges",
+          "owner": "June",
+          "deadline_text": "2026-11-15",
+          "due_date": "2026-11-15",
+          "evidence": [
+            {
+              "line_id": "L05",
+              "quote": "June: I'll prepare the name badges by 2026-11-15."
+            }
+          ],
+          "warnings": []
+        }
+      ],
       "provenance": {
         "author": "Dhanraj",
         "source": "synthetic, written for this project",
-        "created": null
+        "created": "2026-11-11"
       },
       "review": {
         "reviewer": null,
@@ -314,7 +665,7 @@
         "agreed": null,
         "notes": ""
       },
-      "status": "todo"
+      "status": "labelled"
     },
     {
       "id": "M016",
