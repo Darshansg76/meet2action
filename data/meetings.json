@@ -1,0 +1,1711 @@
+{
+  "version": 1,
+  "records": [
+    {
+      "id": "M001",
+      "split": "example",
+      "category": "clear_task",
+      "family_id": "F001",
+      "notes": "",
+      "meeting_date": null,
+      "gold_actions": [],
+      "provenance": {
+        "author": "Dhanraj",
+        "source": "synthetic, written for this project",
+        "created": null
+      },
+      "review": {
+        "reviewer": "Darshan",
+        "status": "pending",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "todo"
+    },
+    {
+      "id": "M002",
+      "split": "example",
+      "category": "missing_owner",
+      "family_id": "F002",
+      "notes": "",
+      "meeting_date": null,
+      "gold_actions": [],
+      "provenance": {
+        "author": "Dhanraj",
+        "source": "synthetic, written for this project",
+        "created": null
+      },
+      "review": {
+        "reviewer": "Darshan",
+        "status": "pending",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "todo"
+    },
+    {
+      "id": "M003",
+      "split": "development",
+      "category": "non_action",
+      "family_id": "F003",
+      "notes": "",
+      "meeting_date": null,
+      "gold_actions": [],
+      "provenance": {
+        "author": "Dhanraj",
+        "source": "synthetic, written for this project",
+        "created": null
+      },
+      "review": {
+        "reviewer": "Darshan",
+        "status": "pending",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "todo"
+    },
+    {
+      "id": "M004",
+      "split": "development",
+      "category": "correction",
+      "family_id": "F004",
+      "notes": "",
+      "meeting_date": null,
+      "gold_actions": [],
+      "provenance": {
+        "author": "Dhanraj",
+        "source": "synthetic, written for this project",
+        "created": null
+      },
+      "review": {
+        "reviewer": null,
+        "status": "not_required",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "todo"
+    },
+    {
+      "id": "M005",
+      "split": "development",
+      "category": "speaker_ambiguity",
+      "family_id": "F005",
+      "notes": "",
+      "meeting_date": null,
+      "gold_actions": [],
+      "provenance": {
+        "author": "Dhanraj",
+        "source": "synthetic, written for this project",
+        "created": null
+      },
+      "review": {
+        "reviewer": null,
+        "status": "not_required",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "todo"
+    },
+    {
+      "id": "M006",
+      "split": "test",
+      "category": "clear_task",
+      "family_id": "F006",
+      "notes": "",
+      "meeting_date": null,
+      "gold_actions": [],
+      "provenance": {
+        "author": "Dhanraj",
+        "source": "synthetic, written for this project",
+        "created": null
+      },
+      "review": {
+        "reviewer": null,
+        "status": "not_required",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "todo"
+    },
+    {
+      "id": "M007",
+      "split": "test",
+      "category": "several_tasks",
+      "family_id": "F007",
+      "notes": "",
+      "meeting_date": null,
+      "gold_actions": [],
+      "provenance": {
+        "author": "Dhanraj",
+        "source": "synthetic, written for this project",
+        "created": null
+      },
+      "review": {
+        "reviewer": null,
+        "status": "not_required",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "todo"
+    },
+    {
+      "id": "M008",
+      "split": "test",
+      "category": "missing_owner",
+      "family_id": "F008",
+      "notes": "",
+      "meeting_date": null,
+      "gold_actions": [],
+      "provenance": {
+        "author": "Dhanraj",
+        "source": "synthetic, written for this project",
+        "created": null
+      },
+      "review": {
+        "reviewer": null,
+        "status": "not_required",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "todo"
+    },
+    {
+      "id": "M009",
+      "split": "test",
+      "category": "unclear_date",
+      "family_id": "F009",
+      "notes": "",
+      "meeting_date": null,
+      "gold_actions": [],
+      "provenance": {
+        "author": "Dhanraj",
+        "source": "synthetic, written for this project",
+        "created": null
+      },
+      "review": {
+        "reviewer": null,
+        "status": "not_required",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "todo"
+    },
+    {
+      "id": "M010",
+      "split": "test",
+      "category": "non_action",
+      "family_id": "F010",
+      "notes": "",
+      "meeting_date": null,
+      "gold_actions": [],
+      "provenance": {
+        "author": "Dhanraj",
+        "source": "synthetic, written for this project",
+        "created": null
+      },
+      "review": {
+        "reviewer": null,
+        "status": "not_required",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "todo"
+    },
+    {
+      "id": "M011",
+      "split": "test",
+      "category": "correction",
+      "family_id": "F011",
+      "notes": "",
+      "meeting_date": null,
+      "gold_actions": [],
+      "provenance": {
+        "author": "Dhanraj",
+        "source": "synthetic, written for this project",
+        "created": null
+      },
+      "review": {
+        "reviewer": null,
+        "status": "not_required",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "todo"
+    },
+    {
+      "id": "M012",
+      "split": "test",
+      "category": "speaker_ambiguity",
+      "family_id": "F012",
+      "notes": "",
+      "meeting_date": null,
+      "gold_actions": [],
+      "provenance": {
+        "author": "Dhanraj",
+        "source": "synthetic, written for this project",
+        "created": null
+      },
+      "review": {
+        "reviewer": null,
+        "status": "not_required",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "todo"
+    },
+    {
+      "id": "M013",
+      "split": "test",
+      "category": "no_action",
+      "family_id": "F013",
+      "notes": "",
+      "meeting_date": null,
+      "gold_actions": [],
+      "provenance": {
+        "author": "Dhanraj",
+        "source": "synthetic, written for this project",
+        "created": null
+      },
+      "review": {
+        "reviewer": null,
+        "status": "not_required",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "todo"
+    },
+    {
+      "id": "M014",
+      "split": "test",
+      "category": "clear_task",
+      "family_id": "F014",
+      "notes": "",
+      "meeting_date": null,
+      "gold_actions": [],
+      "provenance": {
+        "author": "Dhanraj",
+        "source": "synthetic, written for this project",
+        "created": null
+      },
+      "review": {
+        "reviewer": null,
+        "status": "not_required",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "todo"
+    },
+    {
+      "id": "M015",
+      "split": "test",
+      "category": "several_tasks",
+      "family_id": "F015",
+      "notes": "",
+      "meeting_date": null,
+      "gold_actions": [],
+      "provenance": {
+        "author": "Dhanraj",
+        "source": "synthetic, written for this project",
+        "created": null
+      },
+      "review": {
+        "reviewer": null,
+        "status": "not_required",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "todo"
+    },
+    {
+      "id": "M016",
+      "split": "example",
+      "category": "unclear_date",
+      "family_id": "F016",
+      "notes": "",
+      "meeting_date": null,
+      "gold_actions": [],
+      "provenance": {
+        "author": "Vismaya",
+        "source": "synthetic, written for this project",
+        "created": null
+      },
+      "review": {
+        "reviewer": "Dhanraj",
+        "status": "pending",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "todo"
+    },
+    {
+      "id": "M017",
+      "split": "example",
+      "category": "non_action",
+      "family_id": "F017",
+      "notes": "",
+      "meeting_date": null,
+      "gold_actions": [],
+      "provenance": {
+        "author": "Vismaya",
+        "source": "synthetic, written for this project",
+        "created": null
+      },
+      "review": {
+        "reviewer": "Dhanraj",
+        "status": "pending",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "todo"
+    },
+    {
+      "id": "M018",
+      "split": "example",
+      "category": "speaker_ambiguity",
+      "family_id": "F018",
+      "notes": "",
+      "meeting_date": null,
+      "gold_actions": [],
+      "provenance": {
+        "author": "Vismaya",
+        "source": "synthetic, written for this project",
+        "created": null
+      },
+      "review": {
+        "reviewer": "Dhanraj",
+        "status": "pending",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "todo"
+    },
+    {
+      "id": "M019",
+      "split": "development",
+      "category": "clear_task",
+      "family_id": "F019",
+      "notes": "",
+      "meeting_date": null,
+      "gold_actions": [],
+      "provenance": {
+        "author": "Vismaya",
+        "source": "synthetic, written for this project",
+        "created": null
+      },
+      "review": {
+        "reviewer": null,
+        "status": "not_required",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "todo"
+    },
+    {
+      "id": "M020",
+      "split": "development",
+      "category": "several_tasks",
+      "family_id": "F020",
+      "notes": "",
+      "meeting_date": null,
+      "gold_actions": [],
+      "provenance": {
+        "author": "Vismaya",
+        "source": "synthetic, written for this project",
+        "created": null
+      },
+      "review": {
+        "reviewer": null,
+        "status": "not_required",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "todo"
+    },
+    {
+      "id": "M021",
+      "split": "test",
+      "category": "clear_task",
+      "family_id": "F021",
+      "notes": "",
+      "meeting_date": null,
+      "gold_actions": [],
+      "provenance": {
+        "author": "Vismaya",
+        "source": "synthetic, written for this project",
+        "created": null
+      },
+      "review": {
+        "reviewer": null,
+        "status": "not_required",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "todo"
+    },
+    {
+      "id": "M022",
+      "split": "test",
+      "category": "several_tasks",
+      "family_id": "F022",
+      "notes": "",
+      "meeting_date": null,
+      "gold_actions": [],
+      "provenance": {
+        "author": "Vismaya",
+        "source": "synthetic, written for this project",
+        "created": null
+      },
+      "review": {
+        "reviewer": null,
+        "status": "not_required",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "todo"
+    },
+    {
+      "id": "M023",
+      "split": "test",
+      "category": "missing_owner",
+      "family_id": "F023",
+      "notes": "",
+      "meeting_date": null,
+      "gold_actions": [],
+      "provenance": {
+        "author": "Vismaya",
+        "source": "synthetic, written for this project",
+        "created": null
+      },
+      "review": {
+        "reviewer": null,
+        "status": "not_required",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "todo"
+    },
+    {
+      "id": "M024",
+      "split": "test",
+      "category": "unclear_date",
+      "family_id": "F024",
+      "notes": "",
+      "meeting_date": null,
+      "gold_actions": [],
+      "provenance": {
+        "author": "Vismaya",
+        "source": "synthetic, written for this project",
+        "created": null
+      },
+      "review": {
+        "reviewer": null,
+        "status": "not_required",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "todo"
+    },
+    {
+      "id": "M025",
+      "split": "test",
+      "category": "non_action",
+      "family_id": "F025",
+      "notes": "",
+      "meeting_date": null,
+      "gold_actions": [],
+      "provenance": {
+        "author": "Vismaya",
+        "source": "synthetic, written for this project",
+        "created": null
+      },
+      "review": {
+        "reviewer": null,
+        "status": "not_required",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "todo"
+    },
+    {
+      "id": "M026",
+      "split": "test",
+      "category": "correction",
+      "family_id": "F026",
+      "notes": "",
+      "meeting_date": null,
+      "gold_actions": [],
+      "provenance": {
+        "author": "Vismaya",
+        "source": "synthetic, written for this project",
+        "created": null
+      },
+      "review": {
+        "reviewer": null,
+        "status": "not_required",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "todo"
+    },
+    {
+      "id": "M027",
+      "split": "test",
+      "category": "speaker_ambiguity",
+      "family_id": "F027",
+      "notes": "",
+      "meeting_date": null,
+      "gold_actions": [],
+      "provenance": {
+        "author": "Vismaya",
+        "source": "synthetic, written for this project",
+        "created": null
+      },
+      "review": {
+        "reviewer": null,
+        "status": "not_required",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "todo"
+    },
+    {
+      "id": "M028",
+      "split": "test",
+      "category": "no_action",
+      "family_id": "F028",
+      "notes": "",
+      "meeting_date": null,
+      "gold_actions": [],
+      "provenance": {
+        "author": "Vismaya",
+        "source": "synthetic, written for this project",
+        "created": null
+      },
+      "review": {
+        "reviewer": null,
+        "status": "not_required",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "todo"
+    },
+    {
+      "id": "M029",
+      "split": "test",
+      "category": "missing_owner",
+      "family_id": "F029",
+      "notes": "",
+      "meeting_date": null,
+      "gold_actions": [],
+      "provenance": {
+        "author": "Vismaya",
+        "source": "synthetic, written for this project",
+        "created": null
+      },
+      "review": {
+        "reviewer": null,
+        "status": "not_required",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "todo"
+    },
+    {
+      "id": "M030",
+      "split": "test",
+      "category": "unclear_date",
+      "family_id": "F030",
+      "notes": "",
+      "meeting_date": null,
+      "gold_actions": [],
+      "provenance": {
+        "author": "Vismaya",
+        "source": "synthetic, written for this project",
+        "created": null
+      },
+      "review": {
+        "reviewer": null,
+        "status": "not_required",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "todo"
+    },
+    {
+      "id": "M031",
+      "split": "example",
+      "category": "several_tasks",
+      "family_id": "F031",
+      "notes": "Anil: Thanks everyone for joining the launch sync.\nAnil: Meera, can you finalise the pricing page?\nMeera: Yes, I will finish the pricing page by tomorrow.\nRavi: I'll update the onboarding email copy in 3 days.\nAnil: Someone also needs to check the analytics dashboard.\nAnil: Great, let's wrap up.",
+      "meeting_date": "2026-11-11",
+      "gold_actions": [
+        {
+          "task": "Finalise the pricing page",
+          "owner": "Meera",
+          "deadline_text": "tomorrow",
+          "due_date": "2026-11-12",
+          "evidence": [
+            {
+              "line_id": "L02",
+              "quote": "Anil: Meera, can you finalise the pricing page?"
+            },
+            {
+              "line_id": "L03",
+              "quote": "Meera: Yes, I will finish the pricing page by tomorrow."
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "task": "Update the onboarding email copy",
+          "owner": "Ravi",
+          "deadline_text": "in 3 days",
+          "due_date": "2026-11-14",
+          "evidence": [
+            {
+              "line_id": "L04",
+              "quote": "Ravi: I'll update the onboarding email copy in 3 days."
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "task": "Check the analytics dashboard",
+          "owner": null,
+          "deadline_text": null,
+          "due_date": null,
+          "evidence": [
+            {
+              "line_id": "L05",
+              "quote": "Anil: Someone also needs to check the analytics dashboard."
+            }
+          ],
+          "warnings": [
+            "missing_owner",
+            "missing_deadline"
+          ]
+        }
+      ],
+      "provenance": {
+        "author": "Dhanush",
+        "source": "synthetic, written for this project",
+        "created": "2026-11-11"
+      },
+      "review": {
+        "reviewer": "Vismaya",
+        "status": "pending",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "labelled"
+    },
+    {
+      "id": "M032",
+      "split": "example",
+      "category": "correction",
+      "family_id": "F032",
+      "notes": "Leela: Kiran, please send the vendor contract to legal by Friday.\nKiran: Okay, I'll send it Friday.\nLeela: Actually, correction, Sana will send the contract instead.\nSana: Sure, I can send it by 2026-11-14.\nLeela: Thanks, that's all for today.",
+      "meeting_date": "2026-11-11",
+      "gold_actions": [
+        {
+          "task": "Send the vendor contract to legal",
+          "owner": "Sana",
+          "deadline_text": "2026-11-14",
+          "due_date": "2026-11-14",
+          "evidence": [
+            {
+              "line_id": "L03",
+              "quote": "Leela: Actually, correction, Sana will send the contract instead."
+            },
+            {
+              "line_id": "L04",
+              "quote": "Sana: Sure, I can send it by 2026-11-14."
+            }
+          ],
+          "warnings": []
+        }
+      ],
+      "provenance": {
+        "author": "Dhanush",
+        "source": "synthetic, written for this project",
+        "created": "2026-11-11"
+      },
+      "review": {
+        "reviewer": "Vismaya",
+        "status": "pending",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "labelled"
+    },
+    {
+      "id": "M033",
+      "split": "example",
+      "category": "no_action",
+      "family_id": "F033",
+      "notes": "Rohit: Quick update round today.\nNisha: The client demo went well yesterday.\nRohit: I already shared the recording with the team.\nNisha: Maybe we could try a shorter demo next time.\nRohit: Good idea, let's think about it.\nRohit: Nothing else to discuss, thanks.",
+      "meeting_date": "2026-11-11",
+      "gold_actions": [],
+      "provenance": {
+        "author": "Dhanush",
+        "source": "synthetic, written for this project",
+        "created": "2026-11-11"
+      },
+      "review": {
+        "reviewer": "Vismaya",
+        "status": "pending",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "labelled"
+    },
+    {
+      "id": "M034",
+      "split": "development",
+      "category": "missing_owner",
+      "family_id": "F034",
+      "notes": "Asha: Let's review the hackathon logistics.\nAsha: The venue booking has to be confirmed by tomorrow.\nVikram: I'll print the participant badges in 2 days.\nAsha: We also need to arrange snacks for Saturday.\nVikram: Agreed.",
+      "meeting_date": "2026-11-11",
+      "gold_actions": [
+        {
+          "task": "Confirm the venue booking",
+          "owner": null,
+          "deadline_text": "tomorrow",
+          "due_date": "2026-11-12",
+          "evidence": [
+            {
+              "line_id": "L02",
+              "quote": "Asha: The venue booking has to be confirmed by tomorrow."
+            }
+          ],
+          "warnings": [
+            "missing_owner"
+          ]
+        },
+        {
+          "task": "Print the participant badges",
+          "owner": "Vikram",
+          "deadline_text": "in 2 days",
+          "due_date": "2026-11-13",
+          "evidence": [
+            {
+              "line_id": "L03",
+              "quote": "Vikram: I'll print the participant badges in 2 days."
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "task": "Arrange snacks",
+          "owner": null,
+          "deadline_text": "Saturday",
+          "due_date": null,
+          "evidence": [
+            {
+              "line_id": "L04",
+              "quote": "Asha: We also need to arrange snacks for Saturday."
+            }
+          ],
+          "warnings": [
+            "missing_owner",
+            "unresolved_deadline"
+          ]
+        }
+      ],
+      "provenance": {
+        "author": "Dhanush",
+        "source": "synthetic, written for this project",
+        "created": "2026-11-11"
+      },
+      "review": {
+        "reviewer": null,
+        "status": "not_required",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "labelled"
+    },
+    {
+      "id": "M035",
+      "split": "development",
+      "category": "unclear_date",
+      "family_id": "F035",
+      "notes": "Farah: Status check on the research report.\nDev: I will clean the survey data next week.\nFarah: Please draft the summary section by end of month, Dev.\nDev: Will do.\nMeghna: I'll send the citations list today.",
+      "meeting_date": "2026-11-11",
+      "gold_actions": [
+        {
+          "task": "Clean the survey data",
+          "owner": "Dev",
+          "deadline_text": "next week",
+          "due_date": null,
+          "evidence": [
+            {
+              "line_id": "L02",
+              "quote": "Dev: I will clean the survey data next week."
+            }
+          ],
+          "warnings": [
+            "unresolved_deadline"
+          ]
+        },
+        {
+          "task": "Draft the summary section",
+          "owner": "Dev",
+          "deadline_text": "end of month",
+          "due_date": null,
+          "evidence": [
+            {
+              "line_id": "L03",
+              "quote": "Farah: Please draft the summary section by end of month, Dev."
+            },
+            {
+              "line_id": "L04",
+              "quote": "Dev: Will do."
+            }
+          ],
+          "warnings": [
+            "unresolved_deadline"
+          ]
+        },
+        {
+          "task": "Send the citations list",
+          "owner": "Meghna",
+          "deadline_text": "today",
+          "due_date": "2026-11-11",
+          "evidence": [
+            {
+              "line_id": "L05",
+              "quote": "Meghna: I'll send the citations list today."
+            }
+          ],
+          "warnings": []
+        }
+      ],
+      "provenance": {
+        "author": "Dhanush",
+        "source": "synthetic, written for this project",
+        "created": "2026-11-11"
+      },
+      "review": {
+        "reviewer": null,
+        "status": "not_required",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "labelled"
+    },
+    {
+      "id": "M036",
+      "split": "test",
+      "category": "clear_task",
+      "family_id": "F036",
+      "notes": "Tara: Short sync on the mobile release.\nJoel: I will fix the login crash by tomorrow.\nTara: Thanks Joel, that's the only blocker.",
+      "meeting_date": "2026-11-12",
+      "gold_actions": [
+        {
+          "task": "Fix the login crash",
+          "owner": "Joel",
+          "deadline_text": "tomorrow",
+          "due_date": "2026-11-13",
+          "evidence": [
+            {
+              "line_id": "L02",
+              "quote": "Joel: I will fix the login crash by tomorrow."
+            }
+          ],
+          "warnings": []
+        }
+      ],
+      "provenance": {
+        "author": "Dhanush",
+        "source": "synthetic, written for this project",
+        "created": "2026-11-11"
+      },
+      "review": {
+        "reviewer": null,
+        "status": "not_required",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "labelled"
+    },
+    {
+      "id": "M037",
+      "split": "test",
+      "category": "several_tasks",
+      "family_id": "F037",
+      "notes": "Priya: Planning the college fest stalls.\nPriya: Arjun, can you collect the stall fees by 2026-11-20?\nArjun: Yes, I'll collect them.\nNeha: I'll design the stall map in 5 days.\nPriya: I will email the sponsors tomorrow.\nNeha: Also I'll book the sound system today.\nPriya: Perfect.",
+      "meeting_date": "2026-11-13",
+      "gold_actions": [
+        {
+          "task": "Collect the stall fees",
+          "owner": "Arjun",
+          "deadline_text": "2026-11-20",
+          "due_date": "2026-11-20",
+          "evidence": [
+            {
+              "line_id": "L02",
+              "quote": "Priya: Arjun, can you collect the stall fees by 2026-11-20?"
+            },
+            {
+              "line_id": "L03",
+              "quote": "Arjun: Yes, I'll collect them."
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "task": "Design the stall map",
+          "owner": "Neha",
+          "deadline_text": "in 5 days",
+          "due_date": "2026-11-18",
+          "evidence": [
+            {
+              "line_id": "L04",
+              "quote": "Neha: I'll design the stall map in 5 days."
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "task": "Email the sponsors",
+          "owner": "Priya",
+          "deadline_text": "tomorrow",
+          "due_date": "2026-11-14",
+          "evidence": [
+            {
+              "line_id": "L05",
+              "quote": "Priya: I will email the sponsors tomorrow."
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "task": "Book the sound system",
+          "owner": "Neha",
+          "deadline_text": "today",
+          "due_date": "2026-11-13",
+          "evidence": [
+            {
+              "line_id": "L06",
+              "quote": "Neha: Also I'll book the sound system today."
+            }
+          ],
+          "warnings": []
+        }
+      ],
+      "provenance": {
+        "author": "Dhanush",
+        "source": "synthetic, written for this project",
+        "created": "2026-11-11"
+      },
+      "review": {
+        "reviewer": null,
+        "status": "not_required",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "labelled"
+    },
+    {
+      "id": "M038",
+      "split": "test",
+      "category": "missing_owner",
+      "family_id": "F038",
+      "notes": "Omar: Review of the website migration.\nOmar: The old domain must be redirected in 4 days.\nIsha: I will test the contact form tomorrow.\nOmar: The SSL certificate also has to be renewed.\nIsha: Noted.",
+      "meeting_date": "2026-11-14",
+      "gold_actions": [
+        {
+          "task": "Redirect the old domain",
+          "owner": null,
+          "deadline_text": "in 4 days",
+          "due_date": "2026-11-18",
+          "evidence": [
+            {
+              "line_id": "L02",
+              "quote": "Omar: The old domain must be redirected in 4 days."
+            }
+          ],
+          "warnings": [
+            "missing_owner"
+          ]
+        },
+        {
+          "task": "Test the contact form",
+          "owner": "Isha",
+          "deadline_text": "tomorrow",
+          "due_date": "2026-11-15",
+          "evidence": [
+            {
+              "line_id": "L03",
+              "quote": "Isha: I will test the contact form tomorrow."
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "task": "Renew the SSL certificate",
+          "owner": null,
+          "deadline_text": null,
+          "due_date": null,
+          "evidence": [
+            {
+              "line_id": "L04",
+              "quote": "Omar: The SSL certificate also has to be renewed."
+            }
+          ],
+          "warnings": [
+            "missing_owner",
+            "missing_deadline"
+          ]
+        }
+      ],
+      "provenance": {
+        "author": "Dhanush",
+        "source": "synthetic, written for this project",
+        "created": "2026-11-11"
+      },
+      "review": {
+        "reviewer": null,
+        "status": "not_required",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "labelled"
+    },
+    {
+      "id": "M039",
+      "split": "test",
+      "category": "unclear_date",
+      "family_id": "F039",
+      "notes": "Kavya: Book club planning call.\nSameer: I'll pick the next book soon.\nKavya: I will reserve the library room before the holidays.\nSameer: And I'll send the reading schedule in 7 days.",
+      "meeting_date": "2026-11-14",
+      "gold_actions": [
+        {
+          "task": "Pick the next book",
+          "owner": "Sameer",
+          "deadline_text": "soon",
+          "due_date": null,
+          "evidence": [
+            {
+              "line_id": "L02",
+              "quote": "Sameer: I'll pick the next book soon."
+            }
+          ],
+          "warnings": [
+            "unresolved_deadline"
+          ]
+        },
+        {
+          "task": "Reserve the library room",
+          "owner": "Kavya",
+          "deadline_text": "before the holidays",
+          "due_date": null,
+          "evidence": [
+            {
+              "line_id": "L03",
+              "quote": "Kavya: I will reserve the library room before the holidays."
+            }
+          ],
+          "warnings": [
+            "unresolved_deadline"
+          ]
+        },
+        {
+          "task": "Send the reading schedule",
+          "owner": "Sameer",
+          "deadline_text": "in 7 days",
+          "due_date": "2026-11-21",
+          "evidence": [
+            {
+              "line_id": "L04",
+              "quote": "Sameer: And I'll send the reading schedule in 7 days."
+            }
+          ],
+          "warnings": []
+        }
+      ],
+      "provenance": {
+        "author": "Dhanush",
+        "source": "synthetic, written for this project",
+        "created": "2026-11-11"
+      },
+      "review": {
+        "reviewer": null,
+        "status": "not_required",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "labelled"
+    },
+    {
+      "id": "M040",
+      "split": "test",
+      "category": "non_action",
+      "family_id": "F040",
+      "notes": "Ritu: Weekly marketing review.\nAman: I already posted the Diwali campaign.\nRitu: It might be nice to try reels next month.\nAman: I could look into influencer pricing at some point.\nRitu: Let's keep that as an idea for now.\nAman: I will send the campaign report tomorrow.",
+      "meeting_date": "2026-11-15",
+      "gold_actions": [
+        {
+          "task": "Send the campaign report",
+          "owner": "Aman",
+          "deadline_text": "tomorrow",
+          "due_date": "2026-11-16",
+          "evidence": [
+            {
+              "line_id": "L06",
+              "quote": "Aman: I will send the campaign report tomorrow."
+            }
+          ],
+          "warnings": []
+        }
+      ],
+      "provenance": {
+        "author": "Dhanush",
+        "source": "synthetic, written for this project",
+        "created": "2026-11-11"
+      },
+      "review": {
+        "reviewer": null,
+        "status": "not_required",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "labelled"
+    },
+    {
+      "id": "M041",
+      "split": "test",
+      "category": "correction",
+      "family_id": "F041",
+      "notes": "Gopal: Finance close for the quarter.\nLina: I'll submit the expense sheets by tomorrow.\nGopal: Sorry, the auditors need them in 2 days, not tomorrow.\nLina: Fine, in 2 days then.\nGopal: I will approve the travel claims today.",
+      "meeting_date": "2026-11-15",
+      "gold_actions": [
+        {
+          "task": "Submit the expense sheets",
+          "owner": "Lina",
+          "deadline_text": "in 2 days",
+          "due_date": "2026-11-17",
+          "evidence": [
+            {
+              "line_id": "L02",
+              "quote": "Lina: I'll submit the expense sheets by tomorrow."
+            },
+            {
+              "line_id": "L03",
+              "quote": "Gopal: Sorry, the auditors need them in 2 days, not tomorrow."
+            },
+            {
+              "line_id": "L04",
+              "quote": "Lina: Fine, in 2 days then."
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "task": "Approve the travel claims",
+          "owner": "Gopal",
+          "deadline_text": "today",
+          "due_date": "2026-11-15",
+          "evidence": [
+            {
+              "line_id": "L05",
+              "quote": "Gopal: I will approve the travel claims today."
+            }
+          ],
+          "warnings": []
+        }
+      ],
+      "provenance": {
+        "author": "Dhanush",
+        "source": "synthetic, written for this project",
+        "created": "2026-11-11"
+      },
+      "review": {
+        "reviewer": null,
+        "status": "not_required",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "labelled"
+    },
+    {
+      "id": "M042",
+      "split": "test",
+      "category": "speaker_ambiguity",
+      "family_id": "F042",
+      "notes": "Hari: Let's split the lab report work.\nI'll make the graphs by tomorrow.\nZoya: I will write the conclusion in 2 days.\nHari: Someone will merge the files, not sure who yet.",
+      "meeting_date": "2026-11-16",
+      "gold_actions": [
+        {
+          "task": "Make the graphs",
+          "owner": null,
+          "deadline_text": "tomorrow",
+          "due_date": "2026-11-17",
+          "evidence": [
+            {
+              "line_id": "L02",
+              "quote": "I'll make the graphs by tomorrow."
+            }
+          ],
+          "warnings": [
+            "missing_owner"
+          ]
+        },
+        {
+          "task": "Write the conclusion",
+          "owner": "Zoya",
+          "deadline_text": "in 2 days",
+          "due_date": "2026-11-18",
+          "evidence": [
+            {
+              "line_id": "L03",
+              "quote": "Zoya: I will write the conclusion in 2 days."
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "task": "Merge the files",
+          "owner": null,
+          "deadline_text": null,
+          "due_date": null,
+          "evidence": [
+            {
+              "line_id": "L04",
+              "quote": "Hari: Someone will merge the files, not sure who yet."
+            }
+          ],
+          "warnings": [
+            "missing_owner",
+            "missing_deadline"
+          ]
+        }
+      ],
+      "provenance": {
+        "author": "Dhanush",
+        "source": "synthetic, written for this project",
+        "created": "2026-11-11"
+      },
+      "review": {
+        "reviewer": null,
+        "status": "not_required",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "labelled"
+    },
+    {
+      "id": "M043",
+      "split": "test",
+      "category": "no_action",
+      "family_id": "F043",
+      "notes": "Suresh: Retrospective for last sprint.\nAnu: The payment bug was fixed on Monday.\nSuresh: Velocity looked better this time.\nAnu: Maybe we could pair program more often.\nSuresh: Possibly, no decision yet.\nSuresh: That's it, thanks.",
+      "meeting_date": "2026-11-16",
+      "gold_actions": [],
+      "provenance": {
+        "author": "Dhanush",
+        "source": "synthetic, written for this project",
+        "created": "2026-11-11"
+      },
+      "review": {
+        "reviewer": null,
+        "status": "not_required",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "labelled"
+    },
+    {
+      "id": "M044",
+      "split": "test",
+      "category": "non_action",
+      "family_id": "F044",
+      "notes": "Ben: Design review meeting.\nLata: I finished the new icons yesterday.\nBen: We could consider a darker theme someday.\nLata: I already exported the assets.\nBen: I will share the review notes in 3 days.",
+      "meeting_date": "2026-11-17",
+      "gold_actions": [
+        {
+          "task": "Share the review notes",
+          "owner": "Ben",
+          "deadline_text": "in 3 days",
+          "due_date": "2026-11-20",
+          "evidence": [
+            {
+              "line_id": "L05",
+              "quote": "Ben: I will share the review notes in 3 days."
+            }
+          ],
+          "warnings": []
+        }
+      ],
+      "provenance": {
+        "author": "Dhanush",
+        "source": "synthetic, written for this project",
+        "created": "2026-11-11"
+      },
+      "review": {
+        "reviewer": null,
+        "status": "not_required",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "labelled"
+    },
+    {
+      "id": "M045",
+      "split": "test",
+      "category": "correction",
+      "family_id": "F045",
+      "notes": "Ira: Sync for the robotics club.\nManu: I'll order the servo motors tomorrow.\nIra: Wait, Pooja is ordering the motors, not Manu.\nPooja: Yes, I'll order them tomorrow.",
+      "meeting_date": null,
+      "gold_actions": [
+        {
+          "task": "Order the servo motors",
+          "owner": "Pooja",
+          "deadline_text": "tomorrow",
+          "due_date": null,
+          "evidence": [
+            {
+              "line_id": "L03",
+              "quote": "Ira: Wait, Pooja is ordering the motors, not Manu."
+            },
+            {
+              "line_id": "L04",
+              "quote": "Pooja: Yes, I'll order them tomorrow."
+            }
+          ],
+          "warnings": [
+            "unresolved_deadline"
+          ]
+        }
+      ],
+      "provenance": {
+        "author": "Dhanush",
+        "source": "synthetic, written for this project",
+        "created": "2026-11-11"
+      },
+      "review": {
+        "reviewer": null,
+        "status": "not_required",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "labelled"
+    },
+    {
+      "id": "M046",
+      "split": "example",
+      "category": "clear_task",
+      "family_id": "F046",
+      "notes": "",
+      "meeting_date": null,
+      "gold_actions": [],
+      "provenance": {
+        "author": "Darshan",
+        "source": "synthetic, written for this project",
+        "created": null
+      },
+      "review": {
+        "reviewer": "Dhanush",
+        "status": "pending",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "todo"
+    },
+    {
+      "id": "M047",
+      "split": "example",
+      "category": "unclear_date",
+      "family_id": "F047",
+      "notes": "",
+      "meeting_date": null,
+      "gold_actions": [],
+      "provenance": {
+        "author": "Darshan",
+        "source": "synthetic, written for this project",
+        "created": null
+      },
+      "review": {
+        "reviewer": "Dhanush",
+        "status": "pending",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "todo"
+    },
+    {
+      "id": "M048",
+      "split": "development",
+      "category": "no_action",
+      "family_id": "F048",
+      "notes": "",
+      "meeting_date": null,
+      "gold_actions": [],
+      "provenance": {
+        "author": "Darshan",
+        "source": "synthetic, written for this project",
+        "created": null
+      },
+      "review": {
+        "reviewer": "Dhanush",
+        "status": "pending",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "todo"
+    },
+    {
+      "id": "M049",
+      "split": "development",
+      "category": "speaker_ambiguity",
+      "family_id": "F049",
+      "notes": "",
+      "meeting_date": null,
+      "gold_actions": [],
+      "provenance": {
+        "author": "Darshan",
+        "source": "synthetic, written for this project",
+        "created": null
+      },
+      "review": {
+        "reviewer": null,
+        "status": "not_required",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "todo"
+    },
+    {
+      "id": "M050",
+      "split": "development",
+      "category": "several_tasks",
+      "family_id": "F050",
+      "notes": "",
+      "meeting_date": null,
+      "gold_actions": [],
+      "provenance": {
+        "author": "Darshan",
+        "source": "synthetic, written for this project",
+        "created": null
+      },
+      "review": {
+        "reviewer": null,
+        "status": "not_required",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "todo"
+    },
+    {
+      "id": "M051",
+      "split": "test",
+      "category": "clear_task",
+      "family_id": "F051",
+      "notes": "",
+      "meeting_date": null,
+      "gold_actions": [],
+      "provenance": {
+        "author": "Darshan",
+        "source": "synthetic, written for this project",
+        "created": null
+      },
+      "review": {
+        "reviewer": null,
+        "status": "not_required",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "todo"
+    },
+    {
+      "id": "M052",
+      "split": "test",
+      "category": "several_tasks",
+      "family_id": "F052",
+      "notes": "",
+      "meeting_date": null,
+      "gold_actions": [],
+      "provenance": {
+        "author": "Darshan",
+        "source": "synthetic, written for this project",
+        "created": null
+      },
+      "review": {
+        "reviewer": null,
+        "status": "not_required",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "todo"
+    },
+    {
+      "id": "M053",
+      "split": "test",
+      "category": "missing_owner",
+      "family_id": "F053",
+      "notes": "",
+      "meeting_date": null,
+      "gold_actions": [],
+      "provenance": {
+        "author": "Darshan",
+        "source": "synthetic, written for this project",
+        "created": null
+      },
+      "review": {
+        "reviewer": null,
+        "status": "not_required",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "todo"
+    },
+    {
+      "id": "M054",
+      "split": "test",
+      "category": "unclear_date",
+      "family_id": "F054",
+      "notes": "",
+      "meeting_date": null,
+      "gold_actions": [],
+      "provenance": {
+        "author": "Darshan",
+        "source": "synthetic, written for this project",
+        "created": null
+      },
+      "review": {
+        "reviewer": null,
+        "status": "not_required",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "todo"
+    },
+    {
+      "id": "M055",
+      "split": "test",
+      "category": "non_action",
+      "family_id": "F055",
+      "notes": "",
+      "meeting_date": null,
+      "gold_actions": [],
+      "provenance": {
+        "author": "Darshan",
+        "source": "synthetic, written for this project",
+        "created": null
+      },
+      "review": {
+        "reviewer": null,
+        "status": "not_required",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "todo"
+    },
+    {
+      "id": "M056",
+      "split": "test",
+      "category": "correction",
+      "family_id": "F056",
+      "notes": "",
+      "meeting_date": null,
+      "gold_actions": [],
+      "provenance": {
+        "author": "Darshan",
+        "source": "synthetic, written for this project",
+        "created": null
+      },
+      "review": {
+        "reviewer": null,
+        "status": "not_required",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "todo"
+    },
+    {
+      "id": "M057",
+      "split": "test",
+      "category": "speaker_ambiguity",
+      "family_id": "F057",
+      "notes": "",
+      "meeting_date": null,
+      "gold_actions": [],
+      "provenance": {
+        "author": "Darshan",
+        "source": "synthetic, written for this project",
+        "created": null
+      },
+      "review": {
+        "reviewer": null,
+        "status": "not_required",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "todo"
+    },
+    {
+      "id": "M058",
+      "split": "test",
+      "category": "no_action",
+      "family_id": "F058",
+      "notes": "",
+      "meeting_date": null,
+      "gold_actions": [],
+      "provenance": {
+        "author": "Darshan",
+        "source": "synthetic, written for this project",
+        "created": null
+      },
+      "review": {
+        "reviewer": null,
+        "status": "not_required",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "todo"
+    },
+    {
+      "id": "M059",
+      "split": "test",
+      "category": "speaker_ambiguity",
+      "family_id": "F059",
+      "notes": "",
+      "meeting_date": null,
+      "gold_actions": [],
+      "provenance": {
+        "author": "Darshan",
+        "source": "synthetic, written for this project",
+        "created": null
+      },
+      "review": {
+        "reviewer": null,
+        "status": "not_required",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "todo"
+    },
+    {
+      "id": "M060",
+      "split": "test",
+      "category": "no_action",
+      "family_id": "F060",
+      "notes": "",
+      "meeting_date": null,
+      "gold_actions": [],
+      "provenance": {
+        "author": "Darshan",
+        "source": "synthetic, written for this project",
+        "created": null
+      },
+      "review": {
+        "reviewer": null,
+        "status": "not_required",
+        "agreed": null,
+        "notes": ""
+      },
+      "status": "todo"
+    }
+  ]
+}

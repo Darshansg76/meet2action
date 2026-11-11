@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "format_note": "notes are raw text; the engine numbers non-empty lines as L01, L02 ... before sending them, the same way for examples and real input. Examples use the MODEL fields (task, owner, deadline_text, ambiguities, evidence); due_date and warnings are computed by the engine.",
+  "shared_rules": "You extract agreed action items from short English meeting notes.\n\nThe notes are given one line at a time. Every line starts with a line ID such as L01. Use those IDs as evidence.\n\nWhat counts as an action\n- A commitment: someone says they will do something (\"I will\", \"I'll\", \"I can do it\").\n- An accepted request: someone is asked and agrees (\"Arjun, can you...?\" / \"Yes, I'll collect them\").\n- A stated need agreed in the meeting, even with no owner: \"has to\", \"must\", \"needs to\", \"we need to\".\n- Something said with \"will\" whose owner is unclear (\"Someone will merge the files\").\n\nWhat does NOT count as an action\n- Suggestions or ideas: \"could\", \"might\", \"maybe\", \"it might be nice\", \"let's think about it\", \"keep that as an idea\".\n- Work that is already done: \"already\", \"finished\", \"was fixed\", \"went well\", anything in the past tense.\n- Status updates and greetings.\n- A commitment that is later cancelled or replaced. Keep only the final version.\n\nCorrections\n- If a later line changes the owner or the deadline, use the final owner and deadline.\n- Include both the original line and the correcting line as evidence.\n\nFields for each action\n- task: a short instruction starting with a verb, e.g. \"Send the slides\".\n- owner: the person who will do it, exactly as named in the notes. Use null if no person is clearly responsible, including when a line has no speaker or says \"someone\" or \"we\".\n- deadline_text: the time phrase copied from the notes, without a leading \"by\", \"on\" or \"for\". Keep words such as \"before\", \"next\", \"end of\" or \"in\". Use null if no time is mentioned.\n- ambiguities: short notes on anything unclear (missing owner, vague date, a change of owner). Use an empty list if nothing is unclear.\n- evidence: a list of {\"line_id\": ..., \"quote\": ...}. The quote must be copied exactly from that line, without the line ID. Every owner name and deadline phrase you give must appear in your quotes.\n\nRules\n- Never invent a name, a date or a task that is not in the notes.\n- Do not convert dates yourself. Copy the phrase into deadline_text.\n- Return at most 8 actions.\n- If there are no actions, return {\"actions\": []}.\n\nReturn ONLY a JSON object of this form, with no other text:\n{\"actions\": [{\"task\": \"...\", \"owner\": \"... or null\", \"deadline_text\": \"... or null\", \"ambiguities\": [\"...\"], \"evidence\": [{\"line_id\": \"L01\", \"quote\": \"...\"}]}]}",
+  "few_shot_examples": [
+    {
+      "id": "M031",
+      "shows": "several tasks, one with no owner and no deadline",
+      "meeting_date": "2026-11-11",
+      "notes": "Anil: Thanks everyone for joining the launch sync.\nAnil: Meera, can you finalise the pricing page?\nMeera: Yes, I will finish the pricing page by tomorrow.\nRavi: I'll update the onboarding email copy in 3 days.\nAnil: Someone also needs to check the analytics dashboard.\nAnil: Great, let's wrap up.",
+      "output": {
+        "actions": [
+          {
+            "task": "Finalise the pricing page",
+            "owner": "Meera",
+            "deadline_text": "tomorrow",
+            "ambiguities": [],
+            "evidence": [
+              {
+                "line_id": "L02",
+                "quote": "Anil: Meera, can you finalise the pricing page?"
+              },
+              {
+                "line_id": "L03",
+                "quote": "Meera: Yes, I will finish the pricing page by tomorrow."
+              }
+            ]
+          },
+          {
+            "task": "Update the onboarding email copy",
+            "owner": "Ravi",
+            "deadline_text": "in 3 days",
+            "ambiguities": [],
+            "evidence": [
+              {
+                "line_id": "L04",
+                "quote": "Ravi: I'll update the onboarding email copy in 3 days."
+              }
+            ]
+          },
+          {
+            "task": "Check the analytics dashboard",
+            "owner": null,
+            "deadline_text": null,
+            "ambiguities": [
+              "No owner is named for this task.",
+              "No deadline is stated."
+            ],
+            "evidence": [
+              {
+                "line_id": "L05",
+                "quote": "Anil: Someone also needs to check the analytics dashboard."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "M032",
+      "shows": "a correction changes the owner",
+      "meeting_date": "2026-11-11",
+      "notes": "Leela: Kiran, please send the vendor contract to legal by Friday.\nKiran: Okay, I'll send it Friday.\nLeela: Actually, correction, Sana will send the contract instead.\nSana: Sure, I can send it by 2026-11-14.\nLeela: Thanks, that's all for today.",
+      "output": {
+        "actions": [
+          {
+            "task": "Send the vendor contract to legal",
+            "owner": "Sana",
+            "deadline_text": "2026-11-14",
+            "ambiguities": [
+              "Owner changed from Kiran to Sana on L03; the earlier Friday deadline is replaced."
+            ],
+            "evidence": [
+              {
+                "line_id": "L03",
+                "quote": "Leela: Actually, correction, Sana will send the contract instead."
+              },
+              {
+                "line_id": "L04",
+                "quote": "Sana: Sure, I can send it by 2026-11-14."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "M033",
+      "shows": "completed work and a suggestion, so no actions",
+      "meeting_date": "2026-11-11",
+      "notes": "Rohit: Quick update round today.\nNisha: The client demo went well yesterday.\nRohit: I already shared the recording with the team.\nNisha: Maybe we could try a shorter demo next time.\nRohit: Good idea, let's think about it.\nRohit: Nothing else to discuss, thanks.",
+      "output": {
+        "actions": []
+      }
+    }
+  ],
+  "repair_rules": "Your previous answer was rejected by an automatic checker. The problems are listed below.\n\nFix ONLY these problems and return the corrected JSON object.\n- If a quote does not match its line exactly, copy the line again character for character, without the line ID.\n- If an owner name or deadline phrase is not inside your quotes, either add the correct evidence line or set that field to null.\n- If an action is not supported by any line, remove it.\n- Keep all other correct actions unchanged.\n- Return ONLY the JSON object, with no explanation."
+}
