@@ -672,13 +672,29 @@
       "split": "example",
       "category": "unclear_date",
       "family_id": "F016",
-      "notes": "",
-      "meeting_date": null,
-      "gold_actions": [],
+      "notes": "Nikhil: Did we get approval for the cloud credits?\nDivya: Not yet, I will follow up with the finance team sometime next week.\nNikhil: Sounds good, keep us posted.",
+      "meeting_date": "2026-11-12",
+      "gold_actions": [
+        {
+          "task": "Follow up with the finance team about cloud credits",
+          "owner": "Divya",
+          "deadline_text": "sometime next week",
+          "due_date": null,
+          "evidence": [
+            {
+              "line_id": "L02",
+              "quote": "Divya: Not yet, I will follow up with the finance team sometime next week."
+            }
+          ],
+          "warnings": [
+            "unresolved_deadline"
+          ]
+        }
+      ],
       "provenance": {
         "author": "Vismaya",
         "source": "synthetic, written for this project",
-        "created": null
+        "created": "2026-11-12"
       },
       "review": {
         "reviewer": "Dhanraj",
@@ -686,20 +702,20 @@
         "agreed": null,
         "notes": ""
       },
-      "status": "todo"
+      "status": "labelled"
     },
     {
       "id": "M017",
       "split": "example",
       "category": "non_action",
       "family_id": "F017",
-      "notes": "",
-      "meeting_date": null,
+      "notes": "Arjun: I already pushed the hotfix for the login bug yesterday.\nKavya: Nice! Maybe we could also add dark mode later if we have spare time.\nArjun: Yeah, that would be cool to explore in future versions.",
+      "meeting_date": "2026-11-12",
       "gold_actions": [],
       "provenance": {
         "author": "Vismaya",
         "source": "synthetic, written for this project",
-        "created": null
+        "created": "2026-11-12"
       },
       "review": {
         "reviewer": "Dhanraj",
@@ -707,20 +723,40 @@
         "agreed": null,
         "notes": ""
       },
-      "status": "todo"
+      "status": "labelled"
     },
     {
       "id": "M018",
       "split": "example",
       "category": "speaker_ambiguity",
       "family_id": "F018",
-      "notes": "",
-      "meeting_date": null,
-      "gold_actions": [],
+      "notes": "Rahul: Either Dev or Pooja should audit the security permissions.\nDev: I'm tied up with backend testing.\nPooja: I'm swamped with UI bugs too, we'll figure out tomorrow who takes it.",
+      "meeting_date": "2026-11-12",
+      "gold_actions": [
+        {
+          "task": "Audit the security permissions",
+          "owner": null,
+          "deadline_text": "tomorrow",
+          "due_date": "2026-11-13",
+          "evidence": [
+            {
+              "line_id": "L01",
+              "quote": "Rahul: Either Dev or Pooja should audit the security permissions."
+            },
+            {
+              "line_id": "L03",
+              "quote": "Pooja: I'm swamped with UI bugs too, we'll figure out tomorrow who takes it."
+            }
+          ],
+          "warnings": [
+            "missing_owner"
+          ]
+        }
+      ],
       "provenance": {
         "author": "Vismaya",
         "source": "synthetic, written for this project",
-        "created": null
+        "created": "2026-11-12"
       },
       "review": {
         "reviewer": "Dhanraj",
@@ -728,20 +764,34 @@
         "agreed": null,
         "notes": ""
       },
-      "status": "todo"
+      "status": "labelled"
     },
     {
       "id": "M019",
       "split": "development",
       "category": "clear_task",
       "family_id": "F019",
-      "notes": "",
-      "meeting_date": null,
-      "gold_actions": [],
+      "notes": "Ananya: Let's finalize the database schema before the sprint ends.\nKarthik: I will update the ER diagram and share the SQL script tomorrow.\nAnanya: Great, thanks Karthik.",
+      "meeting_date": "2026-11-12",
+      "gold_actions": [
+        {
+          "task": "Update the ER diagram and share the SQL script",
+          "owner": "Karthik",
+          "deadline_text": "tomorrow",
+          "due_date": "2026-11-13",
+          "evidence": [
+            {
+              "line_id": "L02",
+              "quote": "Karthik: I will update the ER diagram and share the SQL script tomorrow."
+            }
+          ],
+          "warnings": []
+        }
+      ],
       "provenance": {
         "author": "Vismaya",
         "source": "synthetic, written for this project",
-        "created": null
+        "created": "2026-11-12"
       },
       "review": {
         "reviewer": null,
@@ -749,20 +799,60 @@
         "agreed": null,
         "notes": ""
       },
-      "status": "todo"
+      "status": "labelled"
     },
     {
       "id": "M020",
       "split": "development",
       "category": "several_tasks",
       "family_id": "F020",
-      "notes": "",
-      "meeting_date": null,
-      "gold_actions": [],
+      "notes": "Priya: We have three items left for the client demo.\nRohan: I'll deploy the staging build today.\nSneha: I can prepare the user walkthrough slides in 3 days.\nPriya: And I will send out the calendar invites on 2026-11-16.",
+      "meeting_date": "2026-11-12",
+      "gold_actions": [
+        {
+          "task": "Deploy the staging build",
+          "owner": "Rohan",
+          "deadline_text": "today",
+          "due_date": "2026-11-12",
+          "evidence": [
+            {
+              "line_id": "L02",
+              "quote": "Rohan: I'll deploy the staging build today."
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "task": "Prepare the user walkthrough slides",
+          "owner": "Sneha",
+          "deadline_text": "in 3 days",
+          "due_date": "2026-11-15",
+          "evidence": [
+            {
+              "line_id": "L03",
+              "quote": "Sneha: I can prepare the user walkthrough slides in 3 days."
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "task": "Send out the calendar invites",
+          "owner": "Priya",
+          "deadline_text": "2026-11-16",
+          "due_date": "2026-11-16",
+          "evidence": [
+            {
+              "line_id": "L04",
+              "quote": "Priya: And I will send out the calendar invites on 2026-11-16."
+            }
+          ],
+          "warnings": []
+        }
+      ],
       "provenance": {
         "author": "Vismaya",
         "source": "synthetic, written for this project",
-        "created": null
+        "created": "2026-11-12"
       },
       "review": {
         "reviewer": null,
@@ -770,20 +860,34 @@
         "agreed": null,
         "notes": ""
       },
-      "status": "todo"
+      "status": "labelled"
     },
     {
       "id": "M021",
       "split": "test",
       "category": "clear_task",
       "family_id": "F021",
-      "notes": "",
-      "meeting_date": null,
-      "gold_actions": [],
+      "notes": "Aditi: The README needs setup instructions for Windows users.\nPranav: I'll add the Windows PowerShell setup steps to README.md today.\nAditi: Thanks Pranav!",
+      "meeting_date": "2026-11-12",
+      "gold_actions": [
+        {
+          "task": "Add the Windows PowerShell setup steps to README.md",
+          "owner": "Pranav",
+          "deadline_text": "today",
+          "due_date": "2026-11-12",
+          "evidence": [
+            {
+              "line_id": "L02",
+              "quote": "Pranav: I'll add the Windows PowerShell setup steps to README.md today."
+            }
+          ],
+          "warnings": []
+        }
+      ],
       "provenance": {
         "author": "Vismaya",
         "source": "synthetic, written for this project",
-        "created": null
+        "created": "2026-11-12"
       },
       "review": {
         "reviewer": null,
@@ -791,20 +895,47 @@
         "agreed": null,
         "notes": ""
       },
-      "status": "todo"
+      "status": "labelled"
     },
     {
       "id": "M022",
       "split": "test",
       "category": "several_tasks",
       "family_id": "F022",
-      "notes": "",
-      "meeting_date": null,
-      "gold_actions": [],
+      "notes": "Harish: Let's divide the QA testing tasks.\nNandini: I will write the unit tests for CSV export tomorrow.\nHarish: And I'll verify the JSON schema validation in 10 days.",
+      "meeting_date": "2026-11-12",
+      "gold_actions": [
+        {
+          "task": "Write the unit tests for CSV export",
+          "owner": "Nandini",
+          "deadline_text": "tomorrow",
+          "due_date": "2026-11-13",
+          "evidence": [
+            {
+              "line_id": "L02",
+              "quote": "Nandini: I will write the unit tests for CSV export tomorrow."
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "task": "Verify the JSON schema validation",
+          "owner": "Harish",
+          "deadline_text": "in 10 days",
+          "due_date": "2026-11-22",
+          "evidence": [
+            {
+              "line_id": "L03",
+              "quote": "Harish: And I'll verify the JSON schema validation in 10 days."
+            }
+          ],
+          "warnings": []
+        }
+      ],
       "provenance": {
         "author": "Vismaya",
         "source": "synthetic, written for this project",
-        "created": null
+        "created": "2026-11-12"
       },
       "review": {
         "reviewer": null,
@@ -812,20 +943,36 @@
         "agreed": null,
         "notes": ""
       },
-      "status": "todo"
+      "status": "labelled"
     },
     {
       "id": "M023",
       "split": "test",
       "category": "missing_owner",
       "family_id": "F023",
-      "notes": "",
-      "meeting_date": null,
-      "gold_actions": [],
+      "notes": "Vikram: The authentication logs are taking up too much disk space.\nMeera: Agreed. Someone needs to configure a log rotation policy in 5 days.\nVikram: Let's make sure that doesn't slip.",
+      "meeting_date": "2026-11-12",
+      "gold_actions": [
+        {
+          "task": "Configure a log rotation policy",
+          "owner": null,
+          "deadline_text": "in 5 days",
+          "due_date": "2026-11-17",
+          "evidence": [
+            {
+              "line_id": "L02",
+              "quote": "Meera: Agreed. Someone needs to configure a log rotation policy in 5 days."
+            }
+          ],
+          "warnings": [
+            "missing_owner"
+          ]
+        }
+      ],
       "provenance": {
         "author": "Vismaya",
         "source": "synthetic, written for this project",
-        "created": null
+        "created": "2026-11-12"
       },
       "review": {
         "reviewer": null,
@@ -833,20 +980,40 @@
         "agreed": null,
         "notes": ""
       },
-      "status": "todo"
+      "status": "labelled"
     },
     {
       "id": "M024",
       "split": "test",
       "category": "unclear_date",
       "family_id": "F024",
-      "notes": "",
-      "meeting_date": null,
-      "gold_actions": [],
+      "notes": "Kiran: We still need to migrate the legacy user records.\nAsha: I will handle the database migration.\nKiran: Do we have a target date?\nAsha: Not yet, I'll get to it whenever the maintenance window opens up.",
+      "meeting_date": "2026-11-12",
+      "gold_actions": [
+        {
+          "task": "Handle the database migration of legacy user records",
+          "owner": "Asha",
+          "deadline_text": "whenever the maintenance window opens up",
+          "due_date": null,
+          "evidence": [
+            {
+              "line_id": "L02",
+              "quote": "Asha: I will handle the database migration."
+            },
+            {
+              "line_id": "L04",
+              "quote": "Asha: Not yet, I'll get to it whenever the maintenance window opens up."
+            }
+          ],
+          "warnings": [
+            "unresolved_deadline"
+          ]
+        }
+      ],
       "provenance": {
         "author": "Vismaya",
         "source": "synthetic, written for this project",
-        "created": null
+        "created": "2026-11-12"
       },
       "review": {
         "reviewer": null,
@@ -854,20 +1021,20 @@
         "agreed": null,
         "notes": ""
       },
-      "status": "todo"
+      "status": "labelled"
     },
     {
       "id": "M025",
       "split": "test",
       "category": "non_action",
       "family_id": "F025",
-      "notes": "",
-      "meeting_date": null,
+      "notes": "Surya: We completed the user interviews last Friday.\nTanvi: What if we turned those notes into a blog post?\nSurya: Maybe, let's revisit that idea next quarter.",
+      "meeting_date": "2026-11-12",
       "gold_actions": [],
       "provenance": {
         "author": "Vismaya",
         "source": "synthetic, written for this project",
-        "created": null
+        "created": "2026-11-12"
       },
       "review": {
         "reviewer": null,
@@ -875,20 +1042,34 @@
         "agreed": null,
         "notes": ""
       },
-      "status": "todo"
+      "status": "labelled"
     },
     {
       "id": "M026",
       "split": "test",
       "category": "correction",
       "family_id": "F026",
-      "notes": "",
-      "meeting_date": null,
-      "gold_actions": [],
+      "notes": "Tara: I'll write the API documentation tomorrow.\nSiddharth: Actually, I already started drafting it. Let me finish the API documentation in 2 days instead.\nTara: Oh awesome, I'll leave it to you then.",
+      "meeting_date": "2026-11-12",
+      "gold_actions": [
+        {
+          "task": "Finish the API documentation",
+          "owner": "Siddharth",
+          "deadline_text": "in 2 days",
+          "due_date": "2026-11-14",
+          "evidence": [
+            {
+              "line_id": "L02",
+              "quote": "Siddharth: Actually, I already started drafting it. Let me finish the API documentation in 2 days instead."
+            }
+          ],
+          "warnings": []
+        }
+      ],
       "provenance": {
         "author": "Vismaya",
         "source": "synthetic, written for this project",
-        "created": null
+        "created": "2026-11-12"
       },
       "review": {
         "reviewer": null,
@@ -896,20 +1077,36 @@
         "agreed": null,
         "notes": ""
       },
-      "status": "todo"
+      "status": "labelled"
     },
     {
       "id": "M027",
       "split": "test",
       "category": "speaker_ambiguity",
       "family_id": "F027",
-      "notes": "",
-      "meeting_date": null,
-      "gold_actions": [],
+      "notes": "Amit: The staging database credentials expired.\nWe need to rotate the staging database keys tomorrow.\nShreya: Agreed, let's make sure that happens before deployment.\nAmit: The production keys are still valid.",
+      "meeting_date": "2026-11-12",
+      "gold_actions": [
+        {
+          "task": "Rotate the staging database keys",
+          "owner": null,
+          "deadline_text": "tomorrow",
+          "due_date": "2026-11-13",
+          "evidence": [
+            {
+              "line_id": "L02",
+              "quote": "We need to rotate the staging database keys tomorrow."
+            }
+          ],
+          "warnings": [
+            "missing_owner"
+          ]
+        }
+      ],
       "provenance": {
         "author": "Vismaya",
         "source": "synthetic, written for this project",
-        "created": null
+        "created": "2026-11-12"
       },
       "review": {
         "reviewer": null,
@@ -917,20 +1114,20 @@
         "agreed": null,
         "notes": ""
       },
-      "status": "todo"
+      "status": "labelled"
     },
     {
       "id": "M028",
       "split": "test",
       "category": "no_action",
       "family_id": "F028",
-      "notes": "",
-      "meeting_date": null,
+      "notes": "Neha: How is everyone feeling about the release timeline?\nVarun: Things are running smoothly on my end.\nNeha: Same here, server uptime has been 99.9% all week. Glad we're on track!",
+      "meeting_date": "2026-11-12",
       "gold_actions": [],
       "provenance": {
         "author": "Vismaya",
         "source": "synthetic, written for this project",
-        "created": null
+        "created": "2026-11-12"
       },
       "review": {
         "reviewer": null,
@@ -938,20 +1135,37 @@
         "agreed": null,
         "notes": ""
       },
-      "status": "todo"
+      "status": "labelled"
     },
     {
       "id": "M029",
       "split": "test",
       "category": "missing_owner",
       "family_id": "F029",
-      "notes": "",
-      "meeting_date": null,
-      "gold_actions": [],
+      "notes": "Deepak: Our SSL certificate is expiring soon.\nSwathi: We must renew the SSL certificate before it lapses.\nDeepak: Let's make sure that gets done, though we haven't picked a date or person yet.",
+      "meeting_date": "2026-11-12",
+      "gold_actions": [
+        {
+          "task": "Renew the SSL certificate",
+          "owner": null,
+          "deadline_text": null,
+          "due_date": null,
+          "evidence": [
+            {
+              "line_id": "L02",
+              "quote": "Swathi: We must renew the SSL certificate before it lapses."
+            }
+          ],
+          "warnings": [
+            "missing_owner",
+            "missing_deadline"
+          ]
+        }
+      ],
       "provenance": {
         "author": "Vismaya",
         "source": "synthetic, written for this project",
-        "created": null
+        "created": "2026-11-12"
       },
       "review": {
         "reviewer": null,
@@ -959,20 +1173,36 @@
         "agreed": null,
         "notes": ""
       },
-      "status": "todo"
+      "status": "labelled"
     },
     {
       "id": "M030",
       "split": "test",
       "category": "unclear_date",
       "family_id": "F030",
-      "notes": "",
-      "meeting_date": null,
-      "gold_actions": [],
+      "notes": "Manoj: Can you benchmark the inference latency on the GPU server?\nShruti: Yes, I will run the latency benchmarks and email the report next Friday.\nManoj: Perfect, thanks Shruti.",
+      "meeting_date": "2026-11-12",
+      "gold_actions": [
+        {
+          "task": "Run the latency benchmarks and email the report",
+          "owner": "Shruti",
+          "deadline_text": "next Friday",
+          "due_date": null,
+          "evidence": [
+            {
+              "line_id": "L02",
+              "quote": "Shruti: Yes, I will run the latency benchmarks and email the report next Friday."
+            }
+          ],
+          "warnings": [
+            "unresolved_deadline"
+          ]
+        }
+      ],
       "provenance": {
         "author": "Vismaya",
         "source": "synthetic, written for this project",
-        "created": null
+        "created": "2026-11-12"
       },
       "review": {
         "reviewer": null,
@@ -980,7 +1210,7 @@
         "agreed": null,
         "notes": ""
       },
-      "status": "todo"
+      "status": "labelled"
     },
     {
       "id": "M031",
