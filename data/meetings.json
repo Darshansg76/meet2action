@@ -1274,9 +1274,9 @@
       },
       "review": {
         "reviewer": "Vismaya",
-        "status": "pending",
-        "agreed": null,
-        "notes": ""
+        "status": "done",
+        "agreed": true,
+        "notes": "Agree. All three items are properly captured: Meera finalising the pricing page by tomorrow (L02-L03), Ravi updating the onboarding email copy in 3 days (L04), and the unassigned analytics dashboard check flagged with missing_owner and missing_deadline (L05)."
       },
       "status": "labelled"
     },
@@ -1313,9 +1313,9 @@
       },
       "review": {
         "reviewer": "Vismaya",
-        "status": "pending",
-        "agreed": null,
-        "notes": ""
+        "status": "done",
+        "agreed": true,
+        "notes": "Agree. Correctly resolves the correction in L03-L04 so Sana is the owner with due date 2026-11-14, superseding Kiran and Friday."
       },
       "status": "labelled"
     },
@@ -1334,9 +1334,9 @@
       },
       "review": {
         "reviewer": "Vismaya",
-        "status": "pending",
-        "agreed": null,
-        "notes": ""
+        "status": "done",
+        "agreed": true,
+        "notes": "Agree. No actions: L02-L03 describe completed work and L04-L05 are non-committal ideas."
       },
       "status": "labelled"
     },
