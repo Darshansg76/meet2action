@@ -48,6 +48,49 @@ class _DraftResponse(_StrictModel):
     actions: list[_DraftAction]
 
 
+_GEMINI_RESPONSE_SCHEMA = types.Schema(
+    type=types.Type.OBJECT,
+    properties={
+        "actions": types.Schema(
+            type=types.Type.ARRAY,
+            items=types.Schema(
+                type=types.Type.OBJECT,
+                properties={
+                    "task": types.Schema(type=types.Type.STRING),
+                    "owner": types.Schema(type=types.Type.STRING, nullable=True),
+                    "deadline_text": types.Schema(
+                        type=types.Type.STRING, nullable=True
+                    ),
+                    "ambiguities": types.Schema(
+                        type=types.Type.ARRAY,
+                        items=types.Schema(type=types.Type.STRING),
+                    ),
+                    "evidence": types.Schema(
+                        type=types.Type.ARRAY,
+                        items=types.Schema(
+                            type=types.Type.OBJECT,
+                            properties={
+                                "line_id": types.Schema(type=types.Type.STRING),
+                                "quote": types.Schema(type=types.Type.STRING),
+                            },
+                            required=["line_id", "quote"],
+                        ),
+                    ),
+                },
+                required=[
+                    "task",
+                    "owner",
+                    "deadline_text",
+                    "ambiguities",
+                    "evidence",
+                ],
+            ),
+        ),
+    },
+    required=["actions"],
+)
+
+
 def _load_configuration() -> tuple[str, str]:
     load_dotenv(dotenv_path=_ENV_PATH)
     api_key = os.environ.get("GEMINI_API_KEY", "")
@@ -68,7 +111,7 @@ def _generate_content(client: genai.Client, model: str, prompt: str) -> Any:
         contents=prompt,
         config=types.GenerateContentConfig(
             response_mime_type="application/json",
-            response_schema=_DraftResponse,
+            response_schema=_GEMINI_RESPONSE_SCHEMA,
         ),
     )
 

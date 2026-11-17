@@ -224,13 +224,103 @@ class ServiceTests(unittest.TestCase):
             result = service.extract_actions(notes, method="A")
         self.assertEqual(result["actions"][0]["due_date"], "2026-12-24")
 
-    def test_provider_helper_uses_json_mode_and_pydantic_schema(self):
+    def test_gemini_schema_matches_strict_pydantic_contract_without_extra_properties(self):
+        schema = service._GEMINI_RESPONSE_SCHEMA.model_dump(
+            mode="json", by_alias=True, exclude_unset=True
+        )
+
+        def assert_no_additional_properties(value):
+            if isinstance(value, dict):
+                self.assertNotIn("additionalProperties", value)
+                self.assertNotIn("additional_properties", value)
+                for nested_value in value.values():
+                    assert_no_additional_properties(nested_value)
+            elif isinstance(value, list):
+                for nested_value in value:
+                    assert_no_additional_properties(nested_value)
+
+        assert_no_additional_properties(schema)
+        self.assertEqual(
+            schema,
+            {
+                "type": "OBJECT",
+                "properties": {
+                    "actions": {
+                        "type": "ARRAY",
+                        "items": {
+                            "type": "OBJECT",
+                            "properties": {
+                                "task": {"type": "STRING"},
+                                "owner": {"type": "STRING", "nullable": True},
+                                "deadline_text": {
+                                    "type": "STRING",
+                                    "nullable": True,
+                                },
+                                "ambiguities": {
+                                    "type": "ARRAY",
+                                    "items": {"type": "STRING"},
+                                },
+                                "evidence": {
+                                    "type": "ARRAY",
+                                    "items": {
+                                        "type": "OBJECT",
+                                        "properties": {
+                                            "line_id": {"type": "STRING"},
+                                            "quote": {"type": "STRING"},
+                                        },
+                                        "required": ["line_id", "quote"],
+                                    },
+                                },
+                            },
+                            "required": [
+                                "task",
+                                "owner",
+                                "deadline_text",
+                                "ambiguities",
+                                "evidence",
+                            ],
+                        },
+                    }
+                },
+                "required": ["actions"],
+            },
+        )
+
+    def test_existing_pydantic_response_models_still_reject_unexpected_fields(self):
+        invalid_action = dict(VALID_ACTION, unexpected="not allowed")
+        with self.assertRaises(service.ValidationError):
+            service._DraftAction.model_validate(invalid_action, strict=True)
+        with self.assertRaises(service.ValidationError):
+            service._DraftResponse.model_validate(
+                {"actions": [VALID_ACTION], "unexpected": "not allowed"},
+                strict=True,
+            )
+
+    def test_provider_helper_uses_json_mode_and_gemini_schema(self):
         generate_content = Mock(return_value=object())
         client = SimpleNamespace(models=SimpleNamespace(generate_content=generate_content))
         service._generate_content(client, "fixture-model", "prompt")
         config = generate_content.call_args.kwargs["config"]
         self.assertEqual(config.response_mime_type, "application/json")
-        self.assertIs(config.response_schema, service._DraftResponse)
+        self.assertIs(config.response_schema, service._GEMINI_RESPONSE_SCHEMA)
+
+    def test_methods_a_b_and_c_use_the_gemini_schema(self):
+        generate_content = Mock(return_value=provider_response([VALID_ACTION]))
+        client = SimpleNamespace(
+            models=SimpleNamespace(generate_content=generate_content),
+            close=Mock(),
+        )
+        self.mock_client.return_value = client
+
+        for method in ("A", "B", "C"):
+            with self.subTest(method=method):
+                generate_content.reset_mock()
+                result = service.extract_actions(NOTES, method=method)
+
+                self.assertEqual(result["status"], "ok")
+                generate_content.assert_called_once()
+                config = generate_content.call_args.kwargs["config"]
+                self.assertIs(config.response_schema, service._GEMINI_RESPONSE_SCHEMA)
 
     def test_create_client_configures_http_timeout(self):
         with patch("service.genai.Client") as create_client:
