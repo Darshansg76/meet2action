@@ -71,8 +71,8 @@ def check_action(rid, a, lines, meeting_date, final=True):
             err(rid, f"bad line_id {e.get('line_id')}")
             continue
         line = lines[int(m.group(1)) - 1]
-        if e.get("quote", "") not in line or not e.get("quote"):
-            err(rid, f"quote not found exactly on {e['line_id']}: {e.get('quote')!r}")
+        if e.get("quote") != line:
+            err(rid, f"quote does not match the full line {e['line_id']}: {e.get('quote')!r}")
         joined += " " + e.get("quote", "")
     if a["owner"] is not None and a["owner"] not in joined:
         err(rid, f"owner {a['owner']!r} is not inside the evidence quotes")
@@ -135,6 +135,8 @@ def main():
             err(rid, f"meeting_date {r['meeting_date']!r} is not ISO")
         if r["category"] == "no_action" and r["gold_actions"]:
             err(rid, "no_action record has gold actions")
+        if r["split"] == "test" and r["category"] != "no_action" and not r["gold_actions"]:
+            err(rid, "only the no_action category can have zero gold actions in the test split")
         for a in r["gold_actions"]:
             check_action(rid, a, lines, r["meeting_date"], final=True)
 
@@ -160,7 +162,7 @@ def main():
 
     print(f"records {len(recs)} | labelled {len(recs) - len(todo)} | todo {len(todo)}")
     print("splits", dict(splits), "| test categories", dict(sorted(test_cats.items())))
-    print(f"labelled test meetings with no actions: {genuine_none} (need at least 5 once all are labelled)")
+    print(f"labelled test meetings with no actions: {genuine_none} (exactly 5 once all are labelled)")
     if todo:
         by_author = defaultdict(list)
         for rid in todo:

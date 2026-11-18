@@ -43,9 +43,9 @@
       },
       "review": {
         "reviewer": "Darshan",
-        "status": "pending",
-        "agreed": null,
-        "notes": ""
+        "status": "done",
+        "agreed": true,
+        "notes": "Codex label comparison for the assigned reviewer. Two commitments match: Ishan sends the copy by 2026-11-13 and Priya books the room for 2026-11-12."
       },
       "status": "labelled"
     },
@@ -85,9 +85,9 @@
       },
       "review": {
         "reviewer": "Darshan",
-        "status": "pending",
-        "agreed": null,
-        "notes": ""
+        "status": "done",
+        "agreed": true,
+        "notes": "Codex label comparison for the assigned reviewer. Booking confirmation is agreed with no assigned owner. Before Friday stays unresolved. Catering was already handled."
       },
       "status": "labelled"
     },
@@ -120,9 +120,9 @@
       },
       "review": {
         "reviewer": "Darshan",
-        "status": "pending",
-        "agreed": null,
-        "notes": ""
+        "status": "done",
+        "agreed": true,
+        "notes": "Codex label comparison for the assigned reviewer. Mateo sends the agenda by 2026-11-13. The deck was already sent and the Q&A remains a suggestion."
       },
       "status": "labelled"
     },
@@ -698,9 +698,9 @@
       },
       "review": {
         "reviewer": "Dhanraj",
-        "status": "pending",
-        "agreed": null,
-        "notes": ""
+        "status": "done",
+        "agreed": true,
+        "notes": "Codex label comparison for the assigned reviewer. Divya follows up with finance. Sometime next week stays unresolved."
       },
       "status": "labelled"
     },
@@ -719,9 +719,9 @@
       },
       "review": {
         "reviewer": "Dhanraj",
-        "status": "pending",
-        "agreed": null,
-        "notes": ""
+        "status": "done",
+        "agreed": true,
+        "notes": "Codex label comparison for the assigned reviewer. The hotfix is complete and dark mode is a suggestion, so there are no actions."
       },
       "status": "labelled"
     },
@@ -734,7 +734,7 @@
       "meeting_date": "2026-11-12",
       "gold_actions": [
         {
-          "task": "Audit the security permissions",
+          "task": "Decide who will audit the security permissions",
           "owner": null,
           "deadline_text": "tomorrow",
           "due_date": "2026-11-13",
@@ -760,9 +760,9 @@
       },
       "review": {
         "reviewer": "Dhanraj",
-        "status": "pending",
-        "agreed": null,
-        "notes": ""
+        "status": "done",
+        "agreed": false,
+        "notes": "Codex label comparison for the assigned reviewer. The original label applied tomorrow to the audit itself. L03 commits to deciding who takes it tomorrow. Corrected the task and retained the missing owner."
       },
       "status": "labelled"
     },
@@ -950,7 +950,7 @@
       "split": "test",
       "category": "missing_owner",
       "family_id": "F023",
-      "notes": "Vikram: The authentication logs are taking up too much disk space.\nMeera: Agreed. Someone needs to configure a log rotation policy in 5 days.\nVikram: Let's make sure that doesn't slip.",
+      "notes": "Vikram: The authentication logs are taking up too much disk space.\nMitali: Agreed. Someone needs to configure a log rotation policy in 5 days.\nVikram: Let's make sure that doesn't slip.",
       "meeting_date": "2026-11-12",
       "gold_actions": [
         {
@@ -961,7 +961,7 @@
           "evidence": [
             {
               "line_id": "L02",
-              "quote": "Meera: Agreed. Someone needs to configure a log rotation policy in 5 days."
+              "quote": "Mitali: Agreed. Someone needs to configure a log rotation policy in 5 days."
             }
           ],
           "warnings": [
@@ -987,7 +987,7 @@
       "split": "test",
       "category": "unclear_date",
       "family_id": "F024",
-      "notes": "Kiran: We still need to migrate the legacy user records.\nAsha: I will handle the database migration.\nKiran: Do we have a target date?\nAsha: Not yet, I'll get to it whenever the maintenance window opens up.",
+      "notes": "Kunal: We still need to migrate the legacy user records.\nAsha: I will handle the database migration.\nKunal: Do we have a target date?\nAsha: Not yet, I'll get to it whenever the maintenance window opens up.",
       "meeting_date": "2026-11-12",
       "gold_actions": [
         {
@@ -1028,9 +1028,23 @@
       "split": "test",
       "category": "non_action",
       "family_id": "F025",
-      "notes": "Surya: We completed the user interviews last Friday.\nTanvi: What if we turned those notes into a blog post?\nSurya: Maybe, let's revisit that idea next quarter.",
+      "notes": "Surya: We completed the user interviews last Friday.\nTanvi: What if we turned those notes into a blog post?\nSurya: Maybe, let's revisit that idea next quarter.\nTanvi: I will send the interview summary to the research team tomorrow.",
       "meeting_date": "2026-11-12",
-      "gold_actions": [],
+      "gold_actions": [
+        {
+          "task": "Send the interview summary to the research team",
+          "owner": "Tanvi",
+          "deadline_text": "tomorrow",
+          "due_date": "2026-11-13",
+          "evidence": [
+            {
+              "line_id": "L04",
+              "quote": "Tanvi: I will send the interview summary to the research team tomorrow."
+            }
+          ],
+          "warnings": []
+        }
+      ],
       "provenance": {
         "author": "Vismaya",
         "source": "synthetic, written for this project",

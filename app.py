@@ -7,43 +7,7 @@ from typing import Any, Dict, List
 import pandas as pd
 import streamlit as st
 
-# Shared extraction function from service.py
-try:
-    from service import extract_actions
-except ImportError:
-    # Fallback mock matching Page 6 contract until service.py is connected
-    def extract_actions(
-        notes: str, meeting_date: str = None, method: str = "B"
-    ) -> Dict[str, Any]:
-        return {
-            "status": "ok",
-            "actions": [
-                {
-                    "task": "Send the slides",
-                    "owner": "Maya",
-                    "deadline_text": "tomorrow",
-                    "due_date": "2026-11-12",
-                    "evidence": [
-                        {
-                            "line_id": "L01",
-                            "quote": "Maya: I will send the slides tomorrow.",
-                        }
-                    ],
-                    "warnings": [],
-                }
-            ],
-            "message": "",
-            "meta": {
-                "latency_ms": 120,
-                "model_calls": 1,
-                "input_tokens": 42,
-                "output_tokens": 18,
-                "model": "mock-model",
-                "raw_responses": [],
-                "validation_errors": [],
-            },
-        }
-
+from service import extract_actions
 
 SAMPLE_NOTES = """Maya: I will send the slides tomorrow.
 Raj: Can you also review the budget draft by Friday?
@@ -147,6 +111,7 @@ with col_date:
     use_date = st.checkbox(
         "Specify Meeting Date",
         value=(st.session_state["meeting_date_val"] is not None),
+        on_change=mark_stale,
     )
     if use_date:
         sel_date = st.date_input(

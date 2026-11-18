@@ -1,4 +1,8 @@
-# Engine dependencies verified for the project's Python 3.10+ support floor.
+# Engine
 google-genai==2.33.0
 pydantic==2.14.3
 python-dotenv==1.2.4
+
+# Streamlit app
+pandas==2.3.2
+streamlit==1.65.0

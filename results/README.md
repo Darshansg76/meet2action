@@ -1,6 +1,6 @@
 # Evaluation results
 
-No live benchmark has been run. The engine, provider configuration and remaining labels are pending. Offline test fixtures are kept in `tests/` and are not evaluation measurements.
+The engine, evaluator and 60 labelled records are ready for a live run. This checkout contains no measured benchmark. A Gemini key is required to produce predictions, and the team must review the task matches before publishing scores. Offline tests verify behavior without producing benchmark measurements.
 
 Use the commands in the root [README](../README.md) to create a run under `results/runs/`. Each run contains:
 

@@ -18,7 +18,7 @@ write notes that fit the category on that record.
 | Darshan | M046–M060 | M046 clear_task, M047 unclear_date | M048 no_action, M049 speaker_ambiguity, M050 several_tasks | speaker_ambiguity, no_action |
 
 Totals: 10 example, 10 development, 40 test, and exactly 5 test meetings per category.
-The 5 `no_action` test meetings are the genuine no-action cases.
+Only the 5 `no_action` test meetings have zero gold actions in the test split.
 
 **Independent reviews** (label these yourself first, then compare with the author):
 Dhanraj reviews M016–M018 · Vismaya reviews M031–M033 · Dhanush reviews M046–M048 · Darshan reviews M001–M003.
@@ -31,7 +31,7 @@ Dhanraj reviews M016–M018 · Vismaya reviews M031–M033 · Dhanush reviews M0
 | several_tasks | Three to eight actions from different people |
 | missing_owner | An agreed task with no person responsible ("has to be", "we need to") |
 | unclear_date | Deadlines like "next week", "soon", "end of month" that cannot become a date |
-| non_action | Suggestions and finished work mixed with at most one or two real actions |
+| non_action | Suggestions and finished work, with one or two real actions in the test split. Example and development cases may have zero actions. |
 | correction | An owner or deadline that is changed later in the meeting |
 | speaker_ambiguity | A line with no speaker, or "someone"/"we" as the doer |
 | no_action | Zero actions — only updates, finished work and suggestions |
